@@ -1,0 +1,82 @@
+{
+ "figures": {
+  "published": {
+   "file": "FigureS_published_cohorts",
+   "legend": "Findings at follow-up echocardiograms after normal earlier assessments: published cohorts beside this cohort. Estimates are shown side by side and were not pooled, because baseline definitions, Z-score systems and timing differ. Filled circles, aneurysm; open circles, Z ≥ 2 or any abnormality; whiskers, Wilson 95% CIs; black, published cohorts; blue, this study's derivation cohort; red, this study's validation cohort. Baseline, Z system and timing of each study: Ma 2020, Z < 2 in the left anterior descending and right coronary arteries on illness days 1–10, Boston Z scores, second echocardiogram on illness days 11–24; Wang 2022, maximal Z < 2.5 within 9 days of treatment, Kobayashi (lambda-mu-sigma) Z scores, 1 month after treatment and then 2 months to 5 years after a normal 1-month echocardiogram; Matsuoka 2020, pretreatment maximal Z ≤ 2.0 in IVIG responders, Kobayashi Z scores, 4 weeks after onset and later to 24 months; McMorrow Tuohy 2001, normal initial echocardiogram (median illness day 6), no Z score (ectasia and aneurysm judged against normal values and adjacent segments), 1–2 months and more than 5 months after onset; de Ferranti 2018 (abstract), Z < 2 at baseline and 2 weeks, 6 (±3) weeks of illness; Wongbundit 2023, Z < 2 at baseline and 2 weeks, 8 weeks and 1 year; Scott 1999, normal echocardiogram 2 weeks to 2 months after onset, later echocardiograms over a median 12.5 months. This study: Z < 2 on every in-hospital report, windows counted from discharge (first echocardiogram 1–30 days, then 31–90, 91–365 and more than 365 days after normal earlier windows); ‡children discharged with a maximal Z below 2.5. Not plotted: Ma 2020 at the late visit (persistence of earlier findings, 5 of 164) and Lee 2005 (no new abnormality after normal echocardiograms at 1–2 months; denominator not reported in the abstract). IVIG, intravenous immunoglobulin."
+  }
+ },
+ "tables": {
+  "definitions": {
+   "file": "TableS_definitions.csv",
+   "note": "Study definitions. AHA, American Heart Association; CRP, C-reactive protein; IVIG, intravenous immunoglobulin."
+  },
+  "z_equations": {
+   "file": "TableS_z_equations.csv",
+   "note": "Coronary Z-score equation used by the hospital's reporting system and its agreement with published equations. Upper part: equation reconstructed from 12,492 pairs of a reported diameter and its reported Z score (2018–2026; 4,061 reports that printed height and weight): mean diameter = a + b × √BSA + c × BSA with a constant SD, BSA by the Stevenson formula; Z = (diameter − mean)/SD. Diameters (mm) at Z 2.0 and 2.5 are shown for a child of 100 cm and 16 kg. Lower part: percentage of the 12,492 reported Z scores reproduced within 0.1, 0.25 and 0.5 by each equation, and the median absolute difference. No published equation tested reproduced the reported values; the reconstructed equation reproduced them in every calendar year (88.0–97.5% within 0.1). [PLACEHOLDER: source of the laboratory equation — awaiting confirmation from the echocardiography laboratory.] BSA, body surface area; LAD, left anterior descending; LMCA, left main coronary artery; RCA, right coronary artery."
+  },
+  "z_coefficients": {
+   "file": "TableS_z_coefficients.csv",
+   "note": ""
+  },
+  "accuracy": {
+   "file": "TableS_accuracy.csv",
+   "note": "Accuracy of the per-report coronary classification. Each audit prompted corrections of the extraction rules, so the values after correction were measured on the samples that prompted them and are optimistic. Tier 1, Z written by the sonographer; tier 2, Z computed from a written diameter with the laboratory equation; tier 3, measurements found in the discharge record or outpatient note for reports that referred to a table; tier 4, wording model (multinomial logistic regression on the report text, with an era term) for reports without measurements. Accuracy is over the five AHA categories. In the derivation analysis, 13 of 1,861 reports worded dilation or aneurysm relied on the wording model. AUC, area under the receiver operating characteristic curve."
+  },
+  "wording": {
+   "file": "TableS_wording.csv",
+   "note": "Largest coronary wording of the in-hospital reports against the AHA category of the in-hospital maximum, cohort C1 of the derivation cohort (n = 3,400). AHA, American Heart Association."
+  },
+  "selection": {
+   "file": "TableS_selection.csv",
+   "note": "Aneurysm at the first echocardiogram after discharge, allowing for the 1,221 derivation children with an uncomplicated in-hospital course who had no echocardiogram 1–30 days after discharge in the hospital's records (1,618 of 2,839 had one, 57.0%; validation 615 of 860, 71.5%). The weights came from a logistic model for having the echocardiogram (c statistic 0.632); 95% CIs for the weighted and standardized estimates are bootstrap intervals (2,000 resamples)."
+  },
+  "sensitivity": {
+   "file": "TableS_sensitivity.csv",
+   "note": "Sensitivity analyses of the aneurysm yield (Z ≥ 2.5) at the first echocardiogram 1–30 days after an uncomplicated in-hospital course. The 2021 rows use a rule-based in-hospital baseline from the discharge record because the 2021 in-hospital reports were not exported; its agreement check in 2018–2024 is shown. Validation P values: beta-binomial predictive test against the derivation estimate. Intervals: Wilson 95% CIs. IVIG, intravenous immunoglobulin."
+  },
+  "infants": {
+   "file": "TableS_infants.csv",
+   "note": "Infants in the derivation cohort. Cells give children with the finding/children (%; Wilson 95% CI). Lower part: Firth logistic regression for the in-hospital findings in cohort C1 (n = 3,400; 432 children with an aneurysm and 152 with a medium or larger aneurysm), with age, sex, and IVIG resistance in the model. Echo, echocardiogram; IVIG, intravenous immunoglobulin."
+  },
+  "infants_firth": {
+   "file": "TableS_infants_firth.csv",
+   "note": ""
+  },
+  "noise": {
+   "file": "TableS_noise.csv",
+   "note": "Repeatability of the maximal coronary Z score between consecutive reports with exact numbers. Repeatability coefficient, 2.77 × within-child SD. *Added after the module plan was locked, because the differences were heavy-tailed: within-child SD from the median absolute deviation of the differences. The event definitions and the noise model built on these estimates are shown in Figure 3."
+  },
+  "z_gradient": {
+   "file": "TableS_z_gradient.csv",
+   "note": "Aneurysm at the first echocardiogram after discharge by the exact in-hospital maximal Z score, among the 358 of 1,702 children discharged with Z below 2.5 whose in-hospital maximum was an exact value (15 aneurysms). Cochran–Armitage test for trend P = 0.020. OR, odds ratio; IVIG, intravenous immunoglobulin."
+  },
+  "timing": {
+   "file": "TableS_timing.csv",
+   "note": "Findings at the first echocardiogram after an uncomplicated in-hospital course by its timing (derivation, n = 1,618; illness day available for 1,253). Cells: children with the finding/children; % (Wilson 95% CI). OR, odds ratio."
+  },
+  "strategies": {
+   "file": "TableS_strategies.csv",
+   "note": "Echocardiograms avoided and aneurysms detected if the first echocardiogram after discharge were limited to children meeting each rule; children discharged with an in-hospital maximal Z below 2.5 and an echocardiogram 1–30 days after discharge (derivation n = 1,702, 33 aneurysms; validation n = 636, 8 aneurysms). Risk factors: age <12 months, IVIG resistance, in-hospital dilation only (Z 2 to <2.5), discharge CRP >20 mg/L or white blood cell count >12 × 10⁹/L. Derivation 95% CIs: bootstrap (2,000 resamples); validation sensitivity: Wilson 95% CI. CRP, C-reactive protein; IVIG, intravenous immunoglobulin."
+  },
+  "management": {
+   "file": "TableS_management.csv",
+   "note": "Care after an aneurysm first documented after discharge (descriptive; derivation cohort). Inpatient orders cover hospital admissions only; outpatient notes were available from January 3, 2021. *Denominator: children with at least 365 days of potential follow-up. †Denominator: children with a visit note available. After a post-discharge aneurysm, the cumulative probability of a report below Z 2.5 was 60.27% by 90 days and 86.34% by 365 days (Kaplan–Meier, n = 40). For reference, 199 of 280 children with a small in-hospital aneurysm had an antithrombotic beyond aspirin ordered during the index admission. Echo, echocardiogram."
+  },
+  "validation": {
+   "file": "TableS_validation.csv",
+   "note": "Prespecified endpoints of the temporal validation (plan locked October 14, 2026 before any validation outcome was computed). Cells: children with the finding/children; % (Wilson 95% CI). Difference, validation minus derivation (Newcombe hybrid score interval). Expected events, validation events expected at the derivation rate. Predictive P, two-sided beta-binomial predictive test of the validation count against the derivation estimate; P ≥ 0.05 was read as no detectable incompatibility. S7 (risk-factor selection) is shown with the selection strategies, and S8 (91–365 and >365 days with follow-up extended to the end of the structured export) gave 0/654 and 0/328 aneurysms."
+  },
+  "validation_events": {
+   "file": "TableS_validation_events.csv",
+   "note": "The 6 aneurysms at the first echocardiogram after an uncomplicated in-hospital course in the validation cohort. Source: structured measurements, proximal segment measurements of the structured table; structured measurements and report conclusion, a non-proximal segment also named as dilated in the report conclusion (conclusion rule). Echo, echocardiogram. Research identifiers are not shown."
+  },
+  "published": {
+   "file": "TableS_published.csv",
+   "note": "Counts behind the comparison figure. Published counts were extracted from the full text (abstract only for de Ferranti 2018) and checked against the article text; 95% CIs are Wilson intervals computed here."
+  },
+  "plan_b": {
+   "file": "TableS_plan_b.csv",
+   "note": "Estimates from the primary analysis (index admissions 2018–2024 without 2021; echocardiograms to February 28, 2025, when nearly every abnormal report carried measurements) compared with all available data (index admissions 2018–2026 without 2021 and all echocardiograms; the wording model supplied the category of reports without measurements, most of them from March 2025). Proportions with Wilson 95% CIs; Kaplan–Meier estimates (time 0 = discharge) with log-log 95% CIs."
+  }
+ }
+}

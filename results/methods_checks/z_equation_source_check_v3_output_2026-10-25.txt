@@ -1,0 +1,94 @@
+Measurements with diameter, reported Z, height and weight: 12492 ({'RCA': 4892, 'LMCA': 3865, 'LAD': 3735}); years 2018-2026
+
+1. ALL MEASUREMENTS
+                                                   within 0.1 (%)  within 0.25 (%)  within 0.5 (%)  median |diff|
+equation                                                                                                         
+lab equation (a + b sqrt(BSA) + c BSA, Stevenson)            94.7             95.3            97.3          0.003
+Beijing 2013, Stevenson BSA                                   8.2             19.7            37.0          0.697
+Beijing 2013, Haycock BSA                                     5.8             16.4            35.3          0.735
+Beijing 2013, DuBois BSA                                      9.3             21.4            38.9          0.681
+Beijing 2013, Mosteller BSA                                   6.6             18.1            36.3          0.720
+Shenzhen 2021, Haycock BSA                                   10.6             28.7            66.2          0.385
+Shenzhen 2021, Stevenson BSA                                 11.4             32.3            65.4          0.348
+Dallaire 2011, Stevenson BSA                                  6.4             17.3            35.4          0.698
+Dallaire 2011, Stevenson BSA, RCA by segment                  6.2             16.6            33.7          0.726
+Dallaire 2011, Haycock BSA                                    7.5             19.0            41.0          0.589
+Dallaire 2011, Haycock BSA, RCA by segment                    7.2             18.1            38.7          0.616
+Dallaire 2011, DuBois BSA                                     6.1             16.4            34.5          0.696
+Dallaire 2011, Mosteller BSA                                  6.9             18.2            38.9          0.617
+
+2. REPORTED |Z| <= 5 (n = 10285; the range that decides normal, dilation and small aneurysm)
+                                                   within 0.1 (%)  within 0.25 (%)  within 0.5 (%)  median |diff|
+equation                                                                                                         
+lab equation (a + b sqrt(BSA) + c BSA, Stevenson)            95.0             95.7            97.7          0.003
+Beijing 2013, Stevenson BSA                                   9.2             22.3            41.6          0.610
+Beijing 2013, Haycock BSA                                     6.3             18.3            39.7          0.639
+Beijing 2013, DuBois BSA                                     10.6             24.2            43.8          0.592
+Beijing 2013, Mosteller BSA                                   7.3             20.3            40.9          0.630
+Shenzhen 2021, Haycock BSA                                   12.1             33.3            77.6          0.341
+Shenzhen 2021, Stevenson BSA                                 13.3             37.7            76.7          0.306
+Dallaire 2011, Stevenson BSA                                  6.8             18.3            37.9          0.653
+Dallaire 2011, Stevenson BSA, RCA by segment                  6.5             17.3            35.7          0.684
+Dallaire 2011, Haycock BSA                                    7.4             19.5            43.2          0.556
+Dallaire 2011, Haycock BSA, RCA by segment                    7.0             18.3            40.4          0.589
+Dallaire 2011, DuBois BSA                                     6.3             17.2            36.1          0.665
+Dallaire 2011, Mosteller BSA                                  7.0             18.8            41.0          0.584
+
+3. BY YEAR: % reproduced within 0.1
+         n   lab  Beijing Ste  Beijing Hay  Beijing DuB  Beijing Mos  Shenzhen Ste  Shenzhen Hay  Dallaire Hay  Dallaire Ste
+yr                                                                                                                          
+2018   450  90.2         10.9         11.1         13.8         12.2           9.6          10.2           7.6           5.3
+2019   388  91.2          9.3          9.8         11.3         10.1           7.2           7.0           5.2           5.4
+2020   631  88.0         10.5          8.2         11.4          8.7           9.4          10.3           8.9           6.0
+2021  1123  94.4          8.6          4.6          8.4          5.3          11.5          11.0           7.5           5.5
+2022  2188  94.5         10.0          6.6         11.5          8.0          10.6           8.9           7.3           6.1
+2023  2924  95.5          8.8          6.0         10.0          6.6          11.6          10.2           8.7           7.5
+2024  3076  95.0          7.7          5.5          8.5          6.2          10.7          11.0           7.4           6.5
+2025  1665  97.5          3.7          2.6          5.1          3.5          15.6          12.9           5.6           6.0
+2026    47  93.6          0.0          2.1          0.0          2.1          25.5          27.7           4.3           6.4
+
+4. NOT REPRODUCED BY THE LAB EQUATION: 667; reproduced by Beijing (any BSA) 55; by Shenzhen (either BSA) 86; by Dallaire (any BSA, either RCA rule) 78; by none 477
+
+4b. DALLAIRE Z AGAINST REPORTED Z (Haycock BSA, RCA by segment), |reported Z| <= 5, by vessel
+   LAD: within 0.1 4.6%; median |diff| 0.70; Z_Dallaire = +0.80 + 0.83 x Z_reported; r = 0.926
+   LMCA: within 0.1 6.9%; median |diff| 0.57; Z_Dallaire = +0.50 + 0.88 x Z_reported; r = 0.888
+   RCA: within 0.1 9.1%; median |diff| 0.53; Z_Dallaire = +0.45 + 0.81 x Z_reported; r = 0.862
+
+5. BEIJING Z AGAINST REPORTED Z (Stevenson BSA), |reported Z| <= 5: least-squares line and correlation
+   LAD: Z_Beijing = -0.69 + 1.12 x Z_reported; r = 0.959; n = 2990
+   LMCA: Z_Beijing = -0.93 + 1.29 x Z_reported; r = 0.954; n = 3401
+   RCA: Z_Beijing = -1.40 + 1.28 x Z_reported; r = 0.949; n = 3894
+
+5b. WHICH FUNCTIONAL FORM DO THE REPORTED VALUES FOLLOW? Every form below is fitted freely to the reported pairs
+    (|reported Z| <= 5; least squares of reported Z on the form's terms, refitted 12 times on the 85% of pairs
+    closest to the current fit so that transcription errors do not pull the fit), so its result approximates the
+    best that any published equation of that form could achieve. % of pairs reproduced within 0.1:
+                                                                                     all pairs within 0.1 (%)  |Z| <= 5 within 0.1 (%)  median |diff|
+form                                                                      BSA                                                                        
+D = a + b sqrt(BSA) + c BSA, constant SD (lab reconstruction)             Stevenson                      94.7                     95.0          0.003
+                                                                          Haycock                        78.0                     78.3          0.049
+D = a + b sqrt(BSA), constant SD                                          Stevenson                      68.9                     71.4          0.069
+                                                                          Haycock                        46.7                     48.3          0.109
+D = a + b BSA + c BSA^2 + d BSA^3, constant SD (Zhang 2014 Shanghai form) Stevenson                      92.7                     93.6          0.009
+                                                                          Haycock                        79.4                     79.4          0.046
+ln D = a + b ln BSA, constant SD (Beijing 2013 and Shenzhen 2021 form)    Stevenson                      40.7                     49.4          0.130
+                                                                          Haycock                        31.1                     37.8          0.172
+ln D = a + b BSA + c BSA^2 + d BSA^3, constant SD (Pettersen 2008 form)   Stevenson                      44.8                     54.4          0.113
+                                                                          Haycock                        39.7                     48.2          0.136
+
+5c. ALL SEVEN BEIJING 2013 MODELS (Tables 4, 5 and 7; Z = (y - fitted) / sqrt(MSE), y = D or ln D):
+    % of all pairs reproduced within 0.1, by BSA formula
+                           Stevenson  Haycock  DuBois  Mosteller
+Beijing model                                                   
+D linear                         4.6      4.7     5.0        4.7
+D quadratic                      7.4      5.9     7.5        6.1
+D cubic                          6.3      4.8     6.0        4.8
+ln D linear                      0.3      0.3     0.3        0.3
+ln D quadratic                   9.7      7.6    11.7        9.2
+ln D cubic                       5.8      5.0     6.6        5.4
+ln D on ln BSA (selected)        8.2      5.8     9.3        6.6
+
+6. ILLUSTRATION: diameter at reported Z = 2.0 and 2.5 for a child of 100 cm and 16 kg
+   LMCA: lab equation 3.10 / 3.26 mm; Beijing 3.16 / 3.30 mm (Stevenson BSA 0.662); Dallaire 2.98 / 3.18 mm (Haycock BSA 0.669)
+   LAD: lab equation 2.59 / 2.74 mm; Beijing 2.68 / 2.83 mm (Stevenson BSA 0.662); Dallaire 2.42 / 2.60 mm (Haycock BSA 0.669)
+   RCA: lab equation 2.73 / 2.90 mm; Beijing 2.90 / 3.05 mm (Stevenson BSA 0.662); Dallaire 2.74 / 2.94 mm (Haycock BSA 0.669)

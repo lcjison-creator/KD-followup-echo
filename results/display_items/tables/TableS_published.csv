@@ -1,0 +1,30 @@
+﻿Window,Study,Finding,Events,Children,%,"95% CI, low","95% CI, high"
+First echocardiogram after the acute assessment,Ma 2020,Z ≥ 2,16,164,9.76,6.09,15.26
+First echocardiogram after the acute assessment,Ma 2020,Aneurysm,12,164,7.32,4.23,12.35
+First echocardiogram after the acute assessment,Wang 2022,Z ≥ 2,9,376,2.39,1.26,4.49
+First echocardiogram after the acute assessment,Wang 2022,Aneurysm,4,376,1.06,0.41,2.7
+First echocardiogram after the acute assessment,Matsuoka 2020,Aneurysm,4,235,1.7,0.66,4.29
+First echocardiogram after the acute assessment,McMorrow Tuohy 2001,Any abnormality,10,277,3.61,1.97,6.52
+First echocardiogram after the acute assessment,McMorrow Tuohy 2001,Aneurysm,7,277,2.53,1.23,5.12
+First echocardiogram after the acute assessment,"This study, derivation",Z ≥ 2,35,1618,2.16,1.56,2.99
+First echocardiogram after the acute assessment,"This study, derivation",Aneurysm,26,1618,1.61,1.1,2.34
+First echocardiogram after the acute assessment,"This study, derivation‡",Aneurysm,33,1702,1.94,1.38,2.71
+First echocardiogram after the acute assessment,"This study, validation",Z ≥ 2,11,615,1.79,1.0,3.17
+First echocardiogram after the acute assessment,"This study, validation",Aneurysm,6,615,0.98,0.45,2.11
+Second echocardiogram after normal earlier echocardiograms,de Ferranti 2018,Z ≥ 2,8,464,1.72,0.88,3.36
+Second echocardiogram after normal earlier echocardiograms,de Ferranti 2018,Aneurysm,3,464,0.65,0.22,1.88
+Second echocardiogram after normal earlier echocardiograms,Wongbundit 2023,Z ≥ 2,0,55,0.0,0.0,6.53
+Second echocardiogram after normal earlier echocardiograms,"This study, derivation",Z ≥ 2,5,1028,0.49,0.21,1.13
+Second echocardiogram after normal earlier echocardiograms,"This study, derivation",Aneurysm,1,1028,0.1,0.02,0.55
+Second echocardiogram after normal earlier echocardiograms,"This study, validation",Z ≥ 2,2,374,0.53,0.15,1.93
+Second echocardiogram after normal earlier echocardiograms,"This study, validation",Aneurysm,0,374,0.0,0.0,1.02
+Later echocardiograms after normal earlier echocardiograms,Scott 1999,Any abnormality,0,50,0.0,0.0,7.13
+Later echocardiograms after normal earlier echocardiograms,McMorrow Tuohy 2001,Any abnormality,0,217,0.0,0.0,1.74
+Later echocardiograms after normal earlier echocardiograms,Wang 2022,Z ≥ 2,7,367,1.91,0.93,3.88
+Later echocardiograms after normal earlier echocardiograms,Wang 2022,Aneurysm,1,367,0.27,0.05,1.53
+Later echocardiograms after normal earlier echocardiograms,Matsuoka 2020,Aneurysm,0,312,0.0,0.0,1.22
+Later echocardiograms after normal earlier echocardiograms,Wongbundit 2023,Z ≥ 2,0,50,0.0,0.0,7.13
+Later echocardiograms after normal earlier echocardiograms,"This study, derivation, 91–365 d",Z ≥ 2,2,609,0.33,0.09,1.19
+Later echocardiograms after normal earlier echocardiograms,"This study, derivation, 91–365 d",Aneurysm,0,609,0.0,0.0,0.63
+Later echocardiograms after normal earlier echocardiograms,"This study, derivation, >365 d",Z ≥ 2,0,221,0.0,0.0,1.71
+Later echocardiograms after normal earlier echocardiograms,"This study, validation, 91–365 d",Aneurysm,0,117,0.0,0.0,3.18

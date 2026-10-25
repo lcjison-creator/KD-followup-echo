@@ -1,0 +1,143 @@
+scope,analysis,group,n,events,time_d,cum_pct,ci_low,ci_high,n_at_risk
+primary,"TTE-1 new aneurysm, uncomplicated in hospital",all,1885,34,30,1.68,1.17,2.41,1454
+primary,"TTE-1 new aneurysm, uncomplicated in hospital",all,1885,34,90,1.83,1.29,2.59,1047
+primary,"TTE-1 new aneurysm, uncomplicated in hospital",all,1885,34,180,1.83,1.29,2.59,773
+primary,"TTE-1 new aneurysm, uncomplicated in hospital",all,1885,34,365,2.13,1.49,3.06,496
+primary,"TTE-1 new aneurysm, uncomplicated in hospital",all,1885,34,730,2.43,1.63,3.6,278
+primary,TTE-1 by risk-factor count,0 factors,735,8,30,0.95,0.43,2.11,566
+primary,TTE-1 by risk-factor count,0 factors,735,8,90,1.33,0.67,2.66,400
+primary,TTE-1 by risk-factor count,0 factors,735,8,365,1.33,0.67,2.66,199
+primary,TTE-1 by risk-factor count,1 factor,874,14,30,1.6,0.93,2.75,676
+primary,TTE-1 by risk-factor count,1 factor,874,14,90,1.6,0.93,2.75,486
+primary,TTE-1 by risk-factor count,1 factor,874,14,365,1.99,1.12,3.54,220
+primary,TTE-1 by risk-factor count,≥2 factors,276,12,30,3.82,2.07,6.99,212
+primary,TTE-1 by risk-factor count,≥2 factors,276,12,90,3.82,2.07,6.99,161
+primary,TTE-1 by risk-factor count,≥2 factors,276,12,365,4.69,2.54,8.58,77
+primary,TTE-1b new aneurysm by in-hospital category,None (Z<2),1885,34,30,1.68,1.17,2.41,1454
+primary,TTE-1b new aneurysm by in-hospital category,None (Z<2),1885,34,90,1.83,1.29,2.59,1047
+primary,TTE-1b new aneurysm by in-hospital category,None (Z<2),1885,34,365,2.13,1.49,3.06,496
+primary,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),93,8,30,9.15,4.67,17.51,68
+primary,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),93,8,90,9.15,4.67,17.51,45
+primary,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),93,8,365,9.15,4.67,17.51,19
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,30,60.13,53.63,66.72,83
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,90,79.03,73.09,84.42,36
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,180,87.19,81.93,91.52,24
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,365,89.52,84.56,93.43,13
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,730,90.47,85.48,94.3,8
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Small,218,188,1095,95.24,90.12,98.17,3
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,30,13.81,7.68,24.17,60
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,90,30.11,20.75,42.42,45
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,180,41.58,30.76,54.44,34
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,365,53.05,41.11,66.02,22
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,730,70.31,56.93,82.64,9
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,76,45,1095,87.28,72.52,96.28,2
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,30,0.0,0.0,0.0,45
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,90,4.71,1.2,17.54,39
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,180,7.15,2.36,20.57,35
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,365,16.72,7.76,33.9,23
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,730,16.72,7.76,33.9,20
+primary,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,47,8,1095,26.03,13.42,46.79,12
+primary,TTE-2 normal lumen (Z<2),Small,218,176,30,49.36,42.85,56.3,103
+primary,TTE-2 normal lumen (Z<2),Small,218,176,90,70.52,63.98,76.8,50
+primary,TTE-2 normal lumen (Z<2),Small,218,176,180,83.71,77.89,88.71,27
+primary,TTE-2 normal lumen (Z<2),Small,218,176,365,86.84,81.34,91.37,13
+primary,TTE-2 normal lumen (Z<2),Small,218,176,730,88.04,82.4,92.54,8
+primary,TTE-2 normal lumen (Z<2),Small,218,176,1095,94.02,87.87,97.67,3
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,30,9.79,4.79,19.46,62
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,90,23.23,14.91,35.13,49
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,180,38.16,27.53,51.2,36
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,365,45.72,34.2,59.01,25
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,730,57.94,44.87,71.62,11
+primary,TTE-2 normal lumen (Z<2),Medium,76,38,1095,81.07,62.47,94.08,2
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,30,0.0,0.0,0.0,45
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,90,0.0,0.0,0.0,41
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,180,2.44,0.35,16.08,36
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,365,5.92,1.48,22.15,24
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,730,9.84,3.2,28.08,20
+primary,TTE-2 normal lumen (Z<2),Large/giant,47,4,1095,14.85,5.63,36.0,13
+primary,TTE-3 progression to a higher category,Dilation only,93,8,30,9.15,4.67,17.51,68
+primary,TTE-3 progression to a higher category,Dilation only,93,8,90,9.15,4.67,17.51,45
+primary,TTE-3 progression to a higher category,Dilation only,93,8,365,9.15,4.67,17.51,19
+primary,TTE-3 progression to a higher category,Small,218,17,30,6.68,4.01,11.02,177
+primary,TTE-3 progression to a higher category,Small,218,17,90,8.53,5.37,13.43,130
+primary,TTE-3 progression to a higher category,Small,218,17,365,8.53,5.37,13.43,59
+primary,TTE-3 progression to a higher category,Medium,76,12,30,13.46,7.48,23.58,58
+primary,TTE-3 progression to a higher category,Medium,76,12,90,15.06,8.62,25.59,51
+primary,TTE-3 progression to a higher category,Medium,76,12,365,17.72,10.24,29.67,26
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,76,11,30,12.01,6.43,21.83,57
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,76,11,90,15.34,8.76,26.1,47
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,76,11,365,15.34,8.76,26.1,22
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,218,18,30,7.19,4.4,11.65,178
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,218,18,90,8.49,5.34,13.36,134
+primary,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,218,18,365,9.86,6.11,15.71,63
+all,"TTE-1 new aneurysm, uncomplicated in hospital",all,2610,41,30,1.47,1.05,2.04,2016
+all,"TTE-1 new aneurysm, uncomplicated in hospital",all,2610,41,90,1.57,1.14,2.17,1452
+all,"TTE-1 new aneurysm, uncomplicated in hospital",all,2610,41,180,1.57,1.14,2.17,1105
+all,"TTE-1 new aneurysm, uncomplicated in hospital",all,2610,41,365,1.92,1.37,2.68,701
+all,"TTE-1 new aneurysm, uncomplicated in hospital",all,2610,41,730,2.13,1.49,3.05,371
+all,TTE-1 by risk-factor count,0 factors,1106,9,30,0.63,0.28,1.4,861
+all,TTE-1 by risk-factor count,0 factors,1106,9,90,0.89,0.44,1.78,597
+all,TTE-1 by risk-factor count,0 factors,1106,9,365,1.24,0.59,2.6,273
+all,TTE-1 by risk-factor count,1 factor,1120,18,30,1.65,1.03,2.64,864
+all,TTE-1 by risk-factor count,1 factor,1120,18,90,1.65,1.03,2.64,630
+all,TTE-1 by risk-factor count,1 factor,1120,18,365,1.91,1.17,3.11,313
+all,TTE-1 by risk-factor count,≥2 factors,384,14,30,3.32,1.9,5.78,291
+all,TTE-1 by risk-factor count,≥2 factors,384,14,90,3.32,1.9,5.78,225
+all,TTE-1 by risk-factor count,≥2 factors,384,14,365,3.92,2.24,6.81,115
+all,TTE-1b new aneurysm by in-hospital category,None (Z<2),2610,41,30,1.47,1.05,2.04,2016
+all,TTE-1b new aneurysm by in-hospital category,None (Z<2),2610,41,90,1.57,1.14,2.17,1452
+all,TTE-1b new aneurysm by in-hospital category,None (Z<2),2610,41,365,1.92,1.37,2.68,701
+all,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),121,10,30,8.91,4.88,15.96,89
+all,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),121,10,90,8.91,4.88,15.96,64
+all,TTE-1b new aneurysm by in-hospital category,Dilation only (Z 2–<2.5),121,10,365,8.91,4.88,15.96,33
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,30,63.25,57.8,68.7,110
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,90,80.53,75.68,84.95,48
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,180,87.11,82.75,90.83,32
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,365,89.91,85.79,93.25,19
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,730,91.2,87.08,94.42,10
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Small,305,265,1095,94.72,90.49,97.47,6
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,30,18.1,11.66,27.51,74
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,90,35.23,26.33,46.05,53
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,180,45.19,35.42,56.27,41
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,365,56.38,45.92,67.36,31
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,730,72.91,61.94,82.9,13
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Medium,97,62,1095,81.94,70.85,90.71,7
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,30,4.57,1.5,13.5,59
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,90,8.07,3.43,18.37,51
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,180,9.87,4.54,20.74,46
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,365,16.12,8.65,28.91,37
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,730,22.12,12.5,37.39,21
+all,TTE-2 regression below aneurysm threshold (Z<2.5),Large/giant,66,14,1095,33.81,20.51,52.36,17
+all,TTE-2 normal lumen (Z<2),Small,305,253,30,52.21,46.66,57.99,139
+all,TTE-2 normal lumen (Z<2),Small,305,253,90,73.18,67.84,78.28,66
+all,TTE-2 normal lumen (Z<2),Small,305,253,180,83.54,78.75,87.78,38
+all,TTE-2 normal lumen (Z<2),Small,305,253,365,87.85,83.36,91.61,21
+all,TTE-2 normal lumen (Z<2),Small,305,253,730,89.82,85.35,93.4,10
+all,TTE-2 normal lumen (Z<2),Small,305,253,1095,93.89,89.15,97.04,6
+all,TTE-2 normal lumen (Z<2),Medium,97,53,30,13.89,8.31,22.73,77
+all,TTE-2 normal lumen (Z<2),Medium,97,53,90,28.86,20.62,39.48,58
+all,TTE-2 normal lumen (Z<2),Medium,97,53,180,41.37,31.76,52.58,44
+all,TTE-2 normal lumen (Z<2),Medium,97,53,365,51.13,40.76,62.44,34
+all,TTE-2 normal lumen (Z<2),Medium,97,53,730,61.58,50.4,72.89,16
+all,TTE-2 normal lumen (Z<2),Medium,97,53,1095,72.26,59.8,83.54,9
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,30,4.65,1.52,13.73,59
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,90,4.65,1.52,13.73,53
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,180,6.45,2.46,16.33,47
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,365,8.57,3.62,19.57,40
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,730,15.62,8.0,29.25,22
+all,TTE-2 normal lumen (Z<2),Large/giant,66,9,1095,19.84,10.3,36.25,19
+all,TTE-3 progression to a higher category,Dilation only,121,10,30,8.91,4.88,15.96,89
+all,TTE-3 progression to a higher category,Dilation only,121,10,90,8.91,4.88,15.96,64
+all,TTE-3 progression to a higher category,Dilation only,121,10,365,8.91,4.88,15.96,33
+all,TTE-3 progression to a higher category,Small,305,22,30,6.44,4.15,9.91,254
+all,TTE-3 progression to a higher category,Small,305,22,90,7.73,5.15,11.54,183
+all,TTE-3 progression to a higher category,Small,305,22,365,7.73,5.15,11.54,101
+all,TTE-3 progression to a higher category,Medium,97,17,30,13.68,8.18,22.4,76
+all,TTE-3 progression to a higher category,Medium,97,17,90,17.32,10.97,26.77,65
+all,TTE-3 progression to a higher category,Medium,97,17,365,19.08,12.21,29.12,42
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,109,19,30,14.13,8.76,22.36,83
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,109,19,90,18.64,12.28,27.75,67
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-resistant,109,19,365,18.64,12.28,27.75,39
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,293,20,30,6.01,3.78,9.5,247
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,293,20,90,6.96,4.48,10.73,181
+all,"TTE-3 progression of small/medium aneurysms, by IVIG resistance",IVIG-responsive,293,20,365,7.81,5.01,12.07,104

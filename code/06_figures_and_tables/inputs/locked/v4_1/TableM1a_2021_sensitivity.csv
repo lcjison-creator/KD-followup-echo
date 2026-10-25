@@ -1,0 +1,13 @@
+outcome,analysis,events,n,pct,ci_low,ci_high
+aneurysm (Z≥2.5),"Primary (AHA in-hospital baseline), 2018–2024 without 2021",26,1618,1.61,1.1,2.34
+aneurysm (Z≥2.5),"Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",30,1647,1.82,1.28,2.59
+aneurysm (Z≥2.5),"Rule-based baseline, 2021 only",7,515,1.36,0.66,2.78
+aneurysm (Z≥2.5),Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based),33,2133,1.55,1.1,2.16
+any involvement (Z≥2),"Primary (AHA in-hospital baseline), 2018–2024 without 2021",35,1618,2.16,1.56,2.99
+any involvement (Z≥2),"Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",48,1647,2.91,2.21,3.84
+any involvement (Z≥2),"Rule-based baseline, 2021 only",11,515,2.14,1.2,3.78
+any involvement (Z≥2),Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based),46,2133,2.16,1.62,2.86
+medium or larger (Z≥5),"Primary (AHA in-hospital baseline), 2018–2024 without 2021",11,1618,0.68,0.38,1.21
+medium or larger (Z≥5),"Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",11,1647,0.67,0.37,1.19
+medium or larger (Z≥5),"Rule-based baseline, 2021 only",2,515,0.39,0.11,1.4
+medium or larger (Z≥5),Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based),13,2133,0.61,0.36,1.04

@@ -1,0 +1,11 @@
+scope,first_documented_in,involvement_Z2,aneurysm_Z2.5,medium_or_larger_Z5,involvement_Z2_pct,aneurysm_Z2.5_pct,medium_or_larger_Z5_pct
+primary,index admission (or before),561,432,153,91.4,90.6,81.0
+primary,W1 1–30 d,39,37,29,6.4,7.8,15.3
+primary,W2 31–90 d,6,2,3,1.0,0.4,1.6
+primary,W3 91–365 d,4,2,2,0.7,0.4,1.1
+primary,W4 >365 d,4,4,2,0.7,0.8,1.1
+all,index admission (or before),767,601,204,92.2,91.8,83.3
+all,W1 1–30 d,48,45,34,5.8,6.9,13.9
+all,W2 31–90 d,7,2,3,0.8,0.3,1.2
+all,W3 91–365 d,5,3,2,0.6,0.5,0.8
+all,W4 >365 d,5,4,2,0.6,0.6,0.8

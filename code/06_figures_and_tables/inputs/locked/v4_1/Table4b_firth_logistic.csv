@@ -1,0 +1,21 @@
+variable,n_with,events_with,events_without,OR,CI_low,CI_high,p,model,population,outcome,n,events,p_fmt
+In-hospital dilation only (Z 2–<2.5),84,7,26,5.82,2.5,13.55,4.5394125245179495e-05,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,<0.001
+Age <12 months,294,10,23,2.18,1.04,4.56,0.03937002400565892,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.039
+Male sex,1064,26,7,2.15,0.95,4.87,0.06662369306421057,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.067
+IVIG resistance,192,12,21,4.8,2.35,9.81,1.7337503336323223e-05,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,<0.001
+Discharge CRP >20 mg/L,685,13,20,0.98,0.49,1.96,0.9471447611368857,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.947
+Discharge WBC >12 ×10⁹/L,225,13,20,4.52,2.24,9.12,2.621288603377181e-05,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,<0.001
+≥2 in-hospital echoes,560,18,15,2.48,1.25,4.91,0.009138412104139348,univariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.009
+In-hospital dilation only (Z 2–<2.5),84,7,26,4.6,1.9,11.11,0.0006944401874908745,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,<0.001
+Age <12 months,294,10,23,2.09,1.0,4.38,0.051369921929922846,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.051
+Male sex,1064,26,7,2.46,1.09,5.57,0.030438902066575402,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.030
+IVIG resistance,192,12,21,2.66,1.18,5.97,0.017782641744502836,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.018
+Discharge CRP >20 mg/L,685,13,20,1.15,0.58,2.31,0.6844426953748899,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.684
+Discharge WBC >12 ×10⁹/L,225,13,20,3.05,1.43,6.48,0.003863061710575044,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.004
+≥2 in-hospital echoes,560,18,15,1.47,0.7,3.1,0.30572055169612256,multivariable,Z<2.5 in hospital,aneurysm (Z≥2.5),1702,33,0.306
+Age <12 months,276,9,26,1.64,0.78,3.47,0.19217661302554334,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.192
+Male sex,1011,27,8,2.04,0.95,4.37,0.06566311539739922,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.066
+IVIG resistance,177,9,26,1.81,0.76,4.32,0.17786043928887407,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.178
+Discharge CRP >20 mg/L,657,14,21,1.05,0.54,2.05,0.8765438081927996,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.877
+Discharge WBC >12 ×10⁹/L,210,13,22,3.37,1.62,7.01,0.0011068069893707122,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.001
+≥2 in-hospital echoes,503,14,21,1.18,0.57,2.43,0.660849468687585,multivariable,Z<2 in hospital,involvement (Z≥2),1618,35,0.661

@@ -1,0 +1,8 @@
+definition,events,n,pct,ci_low,ci_high,not_confirmed,unknown_no_echo
+Primary (any first ≤30-d echo with Z ≥ 2.5),26,1618,1.61,1.1,2.34,,
+(a) persistence: Z ≥ 2.5 again on the next echo ≤90 d later,13,1618,0.8,0.47,1.37,9.0,4.0
+(a) upper: confirmed or not re-imaged ≤90 d,17,1618,1.05,0.66,1.68,,
+(b) exact maximal Z ≥ 3.0 at detection,18,1618,1.11,0.7,1.75,,
+"(c) exact, increase over the exact in-hospital maximum ≥ repeatability coefficient (children with exact in-hospital Z)",1,276,0.36,0.06,2.02,,
+(c) post hoc: as (c) with the robust repeatability coefficient,8,276,2.9,1.48,5.61,,
+Primary definition in the same subset (children with exact in-hospital Z),8,276,2.9,1.48,5.61,,

@@ -1,0 +1,1356 @@
+{
+ "MOD": {
+  "M1a_overview": {
+   "index_2021": 807,
+   "discharge_record_documents_echo": 788,
+   "rule_uncomplicated_with_echo": 702,
+   "with_first_echo_30d": 515,
+   "inhospital_reports_2021_children": 25
+  },
+  "M1a": [
+   {
+    "outcome": "aneurysm (Z≥2.5)",
+    "analysis": "Primary (AHA in-hospital baseline), 2018–2024 without 2021",
+    "events": 26,
+    "n": 1618,
+    "pct": 1.61,
+    "ci_low": 1.1,
+    "ci_high": 2.34
+   },
+   {
+    "outcome": "aneurysm (Z≥2.5)",
+    "analysis": "Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",
+    "events": 30,
+    "n": 1647,
+    "pct": 1.82,
+    "ci_low": 1.28,
+    "ci_high": 2.59
+   },
+   {
+    "outcome": "aneurysm (Z≥2.5)",
+    "analysis": "Rule-based baseline, 2021 only",
+    "events": 7,
+    "n": 515,
+    "pct": 1.36,
+    "ci_low": 0.66,
+    "ci_high": 2.78
+   },
+   {
+    "outcome": "aneurysm (Z≥2.5)",
+    "analysis": "Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based)",
+    "events": 33,
+    "n": 2133,
+    "pct": 1.55,
+    "ci_low": 1.1,
+    "ci_high": 2.16
+   },
+   {
+    "outcome": "any involvement (Z≥2)",
+    "analysis": "Primary (AHA in-hospital baseline), 2018–2024 without 2021",
+    "events": 35,
+    "n": 1618,
+    "pct": 2.16,
+    "ci_low": 1.56,
+    "ci_high": 2.99
+   },
+   {
+    "outcome": "any involvement (Z≥2)",
+    "analysis": "Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",
+    "events": 48,
+    "n": 1647,
+    "pct": 2.91,
+    "ci_low": 2.21,
+    "ci_high": 3.84
+   },
+   {
+    "outcome": "any involvement (Z≥2)",
+    "analysis": "Rule-based baseline, 2021 only",
+    "events": 11,
+    "n": 515,
+    "pct": 2.14,
+    "ci_low": 1.2,
+    "ci_high": 3.78
+   },
+   {
+    "outcome": "any involvement (Z≥2)",
+    "analysis": "Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based)",
+    "events": 46,
+    "n": 2133,
+    "pct": 2.16,
+    "ci_low": 1.62,
+    "ci_high": 2.86
+   },
+   {
+    "outcome": "medium or larger (Z≥5)",
+    "analysis": "Primary (AHA in-hospital baseline), 2018–2024 without 2021",
+    "events": 11,
+    "n": 1618,
+    "pct": 0.68,
+    "ci_low": 0.38,
+    "ci_high": 1.21
+   },
+   {
+    "outcome": "medium or larger (Z≥5)",
+    "analysis": "Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check)",
+    "events": 11,
+    "n": 1647,
+    "pct": 0.67,
+    "ci_low": 0.37,
+    "ci_high": 1.19
+   },
+   {
+    "outcome": "medium or larger (Z≥5)",
+    "analysis": "Rule-based baseline, 2021 only",
+    "events": 2,
+    "n": 515,
+    "pct": 0.39,
+    "ci_low": 0.11,
+    "ci_high": 1.4
+   },
+   {
+    "outcome": "medium or larger (Z≥5)",
+    "analysis": "Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based)",
+    "events": 13,
+    "n": 2133,
+    "pct": 0.61,
+    "ci_low": 0.36,
+    "ci_high": 1.04
+   }
+  ],
+  "M1b": [
+   {
+    "age_group": "<6 mo",
+    "C1_n": 221,
+    "inhosp_aneurysm": "67/221 (30.3%; 24.6–36.7)",
+    "inhosp_medium_plus": "27/221 (12.2%; 8.5–17.2)",
+    "aneurysm_first_after_discharge_of_all_aneurysms": "5/72 (6.9%; 3.0–15.2)",
+    "first_echo_aneurysm_uncomplicated": "1/92 (1.1%; 0.2–5.9)",
+    "first_echo_aneurysm_Z_lt_2_5": "3/100 (3.0%; 1.0–8.5)"
+   },
+   {
+    "age_group": "6–11 mo",
+    "C1_n": 337,
+    "inhosp_aneurysm": "45/337 (13.4%; 10.1–17.4)",
+    "inhosp_medium_plus": "21/337 (6.2%; 4.1–9.3)",
+    "aneurysm_first_after_discharge_of_all_aneurysms": "7/52 (13.5%; 6.7–25.3)",
+    "first_echo_aneurysm_uncomplicated": "7/184 (3.8%; 1.9–7.6)",
+    "first_echo_aneurysm_Z_lt_2_5": "7/194 (3.6%; 1.8–7.3)"
+   },
+   {
+    "age_group": "≥12 mo",
+    "C1_n": 2842,
+    "inhosp_aneurysm": "320/2842 (11.3%; 10.1–12.5)",
+    "inhosp_medium_plus": "104/2842 (3.7%; 3.0–4.4)",
+    "aneurysm_first_after_discharge_of_all_aneurysms": "33/353 (9.3%; 6.7–12.8)",
+    "first_echo_aneurysm_uncomplicated": "18/1342 (1.3%; 0.9–2.1)",
+    "first_echo_aneurysm_Z_lt_2_5": "23/1408 (1.6%; 1.1–2.4)"
+   },
+   {
+    "age_group": "<3 mo",
+    "C1_n": 59,
+    "inhosp_aneurysm": "19/59 (32.2%; 21.7–44.9)",
+    "inhosp_medium_plus": "7/59 (11.9%; 5.9–22.5)",
+    "aneurysm_first_after_discharge_of_all_aneurysms": "1/20 (5.0%; 0.9–23.6)",
+    "first_echo_aneurysm_uncomplicated": "0/26 (0.0%; 0.0–12.9)",
+    "first_echo_aneurysm_Z_lt_2_5": "0/27 (0.0%; 0.0–12.5)"
+   }
+  ],
+  "M1b_firth": [
+   {
+    "variable": "Age <6 months (vs ≥12)",
+    "n_with": 221,
+    "events_with": 67,
+    "events_without": 365,
+    "OR": 3.19,
+    "CI_low": 2.33,
+    "CI_high": 4.38,
+    "p": 6.570299859731676e-13,
+    "outcome": "in-hospital aneurysm",
+    "n": 3400,
+    "events": 432
+   },
+   {
+    "variable": "Age 6–11 months (vs ≥12)",
+    "n_with": 337,
+    "events_with": 45,
+    "events_without": 387,
+    "OR": 1.18,
+    "CI_low": 0.84,
+    "CI_high": 1.66,
+    "p": 0.3332853881058315,
+    "outcome": "in-hospital aneurysm",
+    "n": 3400,
+    "events": 432
+   },
+   {
+    "variable": "Male sex",
+    "n_with": 2166,
+    "events_with": 325,
+    "events_without": 107,
+    "OR": 1.82,
+    "CI_low": 1.44,
+    "CI_high": 2.3,
+    "p": 5.353240581928986e-07,
+    "outcome": "in-hospital aneurysm",
+    "n": 3400,
+    "events": 432
+   },
+   {
+    "variable": "IVIG resistance",
+    "n_with": 429,
+    "events_with": 106,
+    "events_without": 326,
+    "OR": 2.53,
+    "CI_low": 1.97,
+    "CI_high": 3.26,
+    "p": 6.032951915813101e-13,
+    "outcome": "in-hospital aneurysm",
+    "n": 3400,
+    "events": 432
+   },
+   {
+    "variable": "Age <6 months (vs ≥12)",
+    "n_with": 221,
+    "events_with": 27,
+    "events_without": 125,
+    "OR": 3.29,
+    "CI_low": 2.09,
+    "CI_high": 5.18,
+    "p": 2.7055152740373956e-07,
+    "outcome": "in-hospital medium or larger",
+    "n": 3400,
+    "events": 152
+   },
+   {
+    "variable": "Age 6–11 months (vs ≥12)",
+    "n_with": 337,
+    "events_with": 21,
+    "events_without": 131,
+    "OR": 1.71,
+    "CI_low": 1.05,
+    "CI_high": 2.77,
+    "p": 0.030192912477985168,
+    "outcome": "in-hospital medium or larger",
+    "n": 3400,
+    "events": 152
+   },
+   {
+    "variable": "Male sex",
+    "n_with": 2166,
+    "events_with": 117,
+    "events_without": 35,
+    "OR": 1.85,
+    "CI_low": 1.26,
+    "CI_high": 2.72,
+    "p": 0.001670451050085342,
+    "outcome": "in-hospital medium or larger",
+    "n": 3400,
+    "events": 152
+   },
+   {
+    "variable": "IVIG resistance",
+    "n_with": 429,
+    "events_with": 46,
+    "events_without": 106,
+    "OR": 3.01,
+    "CI_low": 2.09,
+    "CI_high": 4.34,
+    "p": 3.2513922665344808e-09,
+    "outcome": "in-hospital medium or larger",
+    "n": 3400,
+    "events": 152
+   }
+  ],
+  "M2a": {
+   "n_uncomplicated": 2839,
+   "n_with_echo": 1618,
+   "n_without_echo": 1221,
+   "observed": {
+    "events": 26,
+    "n": 1618,
+    "pct": 1.61,
+    "ci_low": 1.1,
+    "ci_high": 2.34
+   },
+   "propensity_c_statistic": 0.632,
+   "ipw": {
+    "pct": 1.54,
+    "ci_low": 0.98,
+    "ci_high": 2.21
+   },
+   "standardized": {
+    "pct": 1.55,
+    "ci_low": 1.0,
+    "ci_high": 2.19
+   },
+   "lower_bound": {
+    "events": 26,
+    "n": 2839,
+    "pct": 0.92,
+    "ci_low": 0.63,
+    "ci_high": 1.34
+   },
+   "tipping_point_pct": 5.34,
+   "without_echo_later_echo_31_365": 199,
+   "later_echo_aneurysm": {
+    "events": 3,
+    "n": 199,
+    "pct": 1.51,
+    "ci_low": 0.51,
+    "ci_high": 4.34
+   }
+  },
+  "M2b": {
+   "repeatability": [
+    {
+     "set": "A: index admission, ≤72 h apart",
+     "pairs": 287,
+     "children": 220,
+     "mean_diff": 0.06,
+     "sd_diff": 2.529,
+     "within_sd": 1.789,
+     "repeatability_coef": 4.954,
+     "loa_low": -4.898,
+     "loa_high": 5.017,
+     "within_sd_first_pair_per_child": 1.827,
+     "median_interval_days": 3.0,
+     "posthoc_median_diff": -0.05,
+     "posthoc_robust_sd_diff": 0.964,
+     "posthoc_robust_within_sd": 0.681,
+     "posthoc_robust_repeatability_coef": 1.888,
+     "pct_abs_diff_gt_2": 15.0
+    },
+    {
+     "set": "B: uncomplicated, >30 d after discharge, ≤180 d apart",
+     "pairs": 189,
+     "children": 109,
+     "mean_diff": -0.34,
+     "sd_diff": 2.356,
+     "within_sd": 1.666,
+     "repeatability_coef": 4.615,
+     "loa_low": -4.958,
+     "loa_high": 4.277,
+     "within_sd_first_pair_per_child": 0.923,
+     "median_interval_days": 73.0,
+     "posthoc_median_diff": -0.2,
+     "posthoc_robust_sd_diff": 0.836,
+     "posthoc_robust_within_sd": 0.591,
+     "posthoc_robust_repeatability_coef": 1.637,
+     "pct_abs_diff_gt_2": 9.5
+    }
+   ],
+   "noise": [
+    {
+     "assumption": "within-subject SD of set B (pre-specified)",
+     "within_sd": 1.666,
+     "children": 276,
+     "observed_aneurysms": 8,
+     "expected_from_noise": 36.94,
+     "p_observed_or_more_under_noise_only": 1.0
+    },
+    {
+     "assumption": "within-subject SD of set A (pre-specified sensitivity)",
+     "within_sd": 1.789,
+     "children": 276,
+     "observed_aneurysms": 8,
+     "expected_from_noise": 40.74,
+     "p_observed_or_more_under_noise_only": 1.0
+    },
+    {
+     "assumption": "post hoc: robust within-subject SD of set B",
+     "within_sd": 0.591,
+     "children": 276,
+     "observed_aneurysms": 8,
+     "expected_from_noise": 4.66,
+     "p_observed_or_more_under_noise_only": 0.0891
+    },
+    {
+     "assumption": "post hoc: robust within-subject SD of set A",
+     "within_sd": 0.681,
+     "children": 276,
+     "observed_aneurysms": 8,
+     "expected_from_noise": 6.68,
+     "p_observed_or_more_under_noise_only": 0.3495
+    }
+   ],
+   "confirmed": [
+    {
+     "definition": "Primary (any first ≤30-d echo with Z ≥ 2.5)",
+     "events": 26,
+     "n": 1618,
+     "pct": 1.61,
+     "ci_low": 1.1,
+     "ci_high": 2.34,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    },
+    {
+     "definition": "(a) persistence: Z ≥ 2.5 again on the next echo ≤90 d later",
+     "events": 13,
+     "n": 1618,
+     "pct": 0.8,
+     "ci_low": 0.47,
+     "ci_high": 1.37,
+     "not_confirmed": 9.0,
+     "unknown_no_echo": 4.0
+    },
+    {
+     "definition": "(a) upper: confirmed or not re-imaged ≤90 d",
+     "events": 17,
+     "n": 1618,
+     "pct": 1.05,
+     "ci_low": 0.66,
+     "ci_high": 1.68,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    },
+    {
+     "definition": "(b) exact maximal Z ≥ 3.0 at detection",
+     "events": 18,
+     "n": 1618,
+     "pct": 1.11,
+     "ci_low": 0.7,
+     "ci_high": 1.75,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    },
+    {
+     "definition": "(c) exact, increase over the exact in-hospital maximum ≥ repeatability coefficient (children with exact in-hospital Z)",
+     "events": 1,
+     "n": 276,
+     "pct": 0.36,
+     "ci_low": 0.06,
+     "ci_high": 2.02,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    },
+    {
+     "definition": "(c) post hoc: as (c) with the robust repeatability coefficient",
+     "events": 8,
+     "n": 276,
+     "pct": 2.9,
+     "ci_low": 1.48,
+     "ci_high": 5.61,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    },
+    {
+     "definition": "Primary definition in the same subset (children with exact in-hospital Z)",
+     "events": 8,
+     "n": 276,
+     "pct": 2.9,
+     "ci_low": 1.48,
+     "ci_high": 5.61,
+     "not_confirmed": NaN,
+     "unknown_no_echo": NaN
+    }
+   ]
+  },
+  "M3a": {
+   "table": [
+    {
+     "in_hospital_exact_max_Z": "<1",
+     "events": 4,
+     "n": 202,
+     "pct": 1.98,
+     "ci_low": 0.77,
+     "ci_high": 4.98
+    },
+    {
+     "in_hospital_exact_max_Z": "1–<1.5",
+     "events": 3,
+     "n": 38,
+     "pct": 7.89,
+     "ci_low": 2.72,
+     "ci_high": 20.8
+    },
+    {
+     "in_hospital_exact_max_Z": "1.5–<2",
+     "events": 1,
+     "n": 36,
+     "pct": 2.78,
+     "ci_low": 0.49,
+     "ci_high": 14.17
+    },
+    {
+     "in_hospital_exact_max_Z": "2–<2.5",
+     "events": 7,
+     "n": 82,
+     "pct": 8.54,
+     "ci_low": 4.2,
+     "ci_high": 16.59
+    }
+   ],
+   "trend_p": 0.02005705344247133,
+   "firth": [
+    {
+     "term": "z_per05",
+     "OR": 1.3942218935571438,
+     "CI_low": 1.0571999026896306,
+     "CI_high": 1.8386822430920504,
+     "p": 0.018572993755401113,
+     "n": 358,
+     "events": 15,
+     "model": "crude"
+    },
+    {
+     "term": "z_per05",
+     "OR": 1.3378989314566783,
+     "CI_low": 1.0196962466979216,
+     "CI_high": 1.7553987833037394,
+     "p": 0.03566217585155962,
+     "n": 358,
+     "events": 15,
+     "model": "adjusted for age <12 mo and IVIG resistance"
+    },
+    {
+     "term": "lt12",
+     "OR": 1.764404168081147,
+     "CI_low": 0.581096435861404,
+     "CI_high": 5.357324320406997,
+     "p": 0.31632590629706003,
+     "n": 358,
+     "events": 15,
+     "model": "adjusted for age <12 mo and IVIG resistance"
+    },
+    {
+     "term": "ivr",
+     "OR": 5.854425706604963,
+     "CI_low": 2.055258545128573,
+     "CI_high": 16.676393554180745,
+     "p": 0.0009367486239206801,
+     "n": 358,
+     "events": 15,
+     "model": "adjusted for age <12 mo and IVIG resistance"
+    }
+   ],
+   "n": 358,
+   "n_population": 1702
+  },
+  "M3b": [
+   {
+    "strategy": "S0 echo all",
+    "n": 1702,
+    "aneurysms": 33,
+    "echoes": 1702,
+    "echoes_avoided_pct": 0.0,
+    "echoes_avoided_pct_ci": "0.0–0.0",
+    "detected": 33,
+    "missed": 0,
+    "sensitivity_pct": 100.0,
+    "sensitivity_pct_ci": "100.0–100.0",
+    "echoes_per_aneurysm_detected": 51.58,
+    "echoes_per_aneurysm_detected_ci": "38.7–74.0",
+    "echoes_avoided_per_aneurysm_missed": NaN,
+    "echoes_avoided_per_aneurysm_missed_ci": "NA",
+    "missed_by_size": {}
+   },
+   {
+    "strategy": "S1 echo if ≥1 risk factor",
+    "n": 1702,
+    "aneurysms": 33,
+    "echoes": 1070,
+    "echoes_avoided_pct": 37.13,
+    "echoes_avoided_pct_ci": "34.8–39.4",
+    "detected": 28,
+    "missed": 5,
+    "sensitivity_pct": 84.85,
+    "sensitivity_pct_ci": "71.9–96.0",
+    "echoes_per_aneurysm_detected": 38.21,
+    "echoes_per_aneurysm_detected_ci": "27.9–57.8",
+    "echoes_avoided_per_aneurysm_missed": 126.4,
+    "echoes_avoided_per_aneurysm_missed_ci": "64.6–608.4",
+    "missed_by_size": {
+     "Small": 3,
+     "Medium": 2
+    }
+   },
+   {
+    "strategy": "S2 echo if ≥2 risk factors",
+    "n": 1702,
+    "aneurysms": 33,
+    "echoes": 296,
+    "echoes_avoided_pct": 82.61,
+    "echoes_avoided_pct_ci": "80.7–84.4",
+    "detected": 15,
+    "missed": 18,
+    "sensitivity_pct": 45.45,
+    "sensitivity_pct_ci": "27.3–63.3",
+    "echoes_per_aneurysm_detected": 19.73,
+    "echoes_per_aneurysm_detected_ci": "13.4–37.6",
+    "echoes_avoided_per_aneurysm_missed": 78.11,
+    "echoes_avoided_per_aneurysm_missed_ci": "53.1–138.9",
+    "missed_by_size": {
+     "Small": 14,
+     "Medium": 4
+    }
+   },
+   {
+    "strategy": "S3 echo if dilation only or IVIG resistance",
+    "n": 1702,
+    "aneurysms": 33,
+    "echoes": 261,
+    "echoes_avoided_pct": 84.67,
+    "echoes_avoided_pct_ci": "83.0–86.4",
+    "detected": 15,
+    "missed": 18,
+    "sensitivity_pct": 45.45,
+    "sensitivity_pct_ci": "27.8–63.0",
+    "echoes_per_aneurysm_detected": 17.4,
+    "echoes_per_aneurysm_detected_ci": "11.9–32.8",
+    "echoes_avoided_per_aneurysm_missed": 80.06,
+    "echoes_avoided_per_aneurysm_missed_ci": "53.6–143.8",
+    "missed_by_size": {
+     "Small": 13,
+     "Medium": 5
+    }
+   },
+   {
+    "strategy": "S4 echo if ≥1 risk factor or exact in-hospital Z ≥1.5 (exploratory)",
+    "n": 1702,
+    "aneurysms": 33,
+    "echoes": 1084,
+    "echoes_avoided_pct": 36.31,
+    "echoes_avoided_pct_ci": "34.1–38.6",
+    "detected": 28,
+    "missed": 5,
+    "sensitivity_pct": 84.85,
+    "sensitivity_pct_ci": "71.9–96.0",
+    "echoes_per_aneurysm_detected": 38.71,
+    "echoes_per_aneurysm_detected_ci": "28.3–58.4",
+    "echoes_avoided_per_aneurysm_missed": 123.6,
+    "echoes_avoided_per_aneurysm_missed_ci": "63.0–593.3",
+    "missed_by_size": {
+     "Small": 3,
+     "Medium": 2
+    }
+   }
+  ],
+  "M3c": {
+   "table": [
+    {
+     "variable": "days after discharge",
+     "level": "1–7 d",
+     "aneurysm_events": 13,
+     "aneurysm_n": 786,
+     "aneurysm_pct": 1.65,
+     "aneurysm_ci_low": 0.97,
+     "aneurysm_ci_high": 2.81,
+     "involvement_events": 18,
+     "involvement_n": 786,
+     "involvement_pct": 2.29,
+     "involvement_ci_low": 1.45,
+     "involvement_ci_high": 3.59,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "days after discharge",
+     "level": "8–14 d",
+     "aneurysm_events": 11,
+     "aneurysm_n": 689,
+     "aneurysm_pct": 1.6,
+     "aneurysm_ci_low": 0.89,
+     "aneurysm_ci_high": 2.84,
+     "involvement_events": 14,
+     "involvement_n": 689,
+     "involvement_pct": 2.03,
+     "involvement_ci_low": 1.21,
+     "involvement_ci_high": 3.38,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "days after discharge",
+     "level": "15–30 d",
+     "aneurysm_events": 2,
+     "aneurysm_n": 143,
+     "aneurysm_pct": 1.4,
+     "aneurysm_ci_low": 0.38,
+     "aneurysm_ci_high": 4.96,
+     "involvement_events": 3,
+     "involvement_n": 143,
+     "involvement_pct": 2.1,
+     "involvement_ci_low": 0.72,
+     "involvement_ci_high": 5.99,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "illness day",
+     "level": "≤14",
+     "aneurysm_events": 2,
+     "aneurysm_n": 109,
+     "aneurysm_pct": 1.83,
+     "aneurysm_ci_low": 0.5,
+     "aneurysm_ci_high": 6.44,
+     "involvement_events": 2,
+     "involvement_n": 109,
+     "involvement_pct": 1.83,
+     "involvement_ci_low": 0.5,
+     "involvement_ci_high": 6.44,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "illness day",
+     "level": "15–21",
+     "aneurysm_events": 16,
+     "aneurysm_n": 816,
+     "aneurysm_pct": 1.96,
+     "aneurysm_ci_low": 1.21,
+     "aneurysm_ci_high": 3.16,
+     "involvement_events": 21,
+     "involvement_n": 816,
+     "involvement_pct": 2.57,
+     "involvement_ci_low": 1.69,
+     "involvement_ci_high": 3.9,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "illness day",
+     "level": "22–30",
+     "aneurysm_events": 3,
+     "aneurysm_n": 247,
+     "aneurysm_pct": 1.21,
+     "aneurysm_ci_low": 0.41,
+     "aneurysm_ci_high": 3.51,
+     "involvement_events": 3,
+     "involvement_n": 247,
+     "involvement_pct": 1.21,
+     "involvement_ci_low": 0.41,
+     "involvement_ci_high": 3.51,
+     "median_risk_count": 1.0
+    },
+    {
+     "variable": "illness day",
+     "level": ">30",
+     "aneurysm_events": 1,
+     "aneurysm_n": 81,
+     "aneurysm_pct": 1.23,
+     "aneurysm_ci_low": 0.22,
+     "aneurysm_ci_high": 6.67,
+     "involvement_events": 2,
+     "involvement_n": 81,
+     "involvement_pct": 2.47,
+     "involvement_ci_low": 0.68,
+     "involvement_ci_high": 8.56,
+     "median_risk_count": 1.0
+    }
+   ],
+   "firth": [
+    {
+     "term": "d_1–7 d",
+     "OR": 1.038286413402304,
+     "CI_low": 0.4744350218429197,
+     "CI_high": 2.2722577942670243,
+     "p": 0.925089411423683,
+     "n": 1618,
+     "events": 26,
+     "model": "days after discharge (ref 8–14 d) + risk-factor count"
+    },
+    {
+     "term": "d_15–30 d",
+     "OR": 0.9788473653434595,
+     "CI_low": 0.24927401483458883,
+     "CI_high": 3.8437306242113847,
+     "p": 0.9755602352853063,
+     "n": 1618,
+     "events": 26,
+     "model": "days after discharge (ref 8–14 d) + risk-factor count"
+    },
+    {
+     "term": "rc1",
+     "OR": 1.9503218195612606,
+     "CI_low": 0.7227120925534566,
+     "CI_high": 5.2631680568917485,
+     "p": 0.18722077289050043,
+     "n": 1618,
+     "events": 26,
+     "model": "days after discharge (ref 8–14 d) + risk-factor count"
+    },
+    {
+     "term": "rc2",
+     "OR": 4.6566393792057,
+     "CI_low": 1.6371355387502111,
+     "CI_high": 13.245262713265038,
+     "p": 0.00392326545059607,
+     "n": 1618,
+     "events": 26,
+     "model": "days after discharge (ref 8–14 d) + risk-factor count"
+    },
+    {
+     "term": "i_≤14",
+     "OR": 1.0541476859513357,
+     "CI_low": 0.277853520850169,
+     "CI_high": 3.9993279206844363,
+     "p": 0.9382151718004579,
+     "n": 1253,
+     "events": 22,
+     "model": "illness day (ref 15–21) + risk-factor count"
+    },
+    {
+     "term": "i_22–30",
+     "OR": 0.6657842576748407,
+     "CI_low": 0.21162167815211275,
+     "CI_high": 2.094627930551704,
+     "p": 0.4866603111233876,
+     "n": 1253,
+     "events": 22,
+     "model": "illness day (ref 15–21) + risk-factor count"
+    },
+    {
+     "term": "i_>30",
+     "OR": 0.868400540250643,
+     "CI_low": 0.1631386383003413,
+     "CI_high": 4.622568302422999,
+     "p": 0.8686278188315768,
+     "n": 1253,
+     "events": 22,
+     "model": "illness day (ref 15–21) + risk-factor count"
+    },
+    {
+     "term": "rc1",
+     "OR": 1.5904441137627592,
+     "CI_low": 0.5787882777611678,
+     "CI_high": 4.3703588621164,
+     "p": 0.3682690448513344,
+     "n": 1253,
+     "events": 22,
+     "model": "illness day (ref 15–21) + risk-factor count"
+    },
+    {
+     "term": "rc2",
+     "OR": 3.4472213976697197,
+     "CI_low": 1.1669756490289718,
+     "CI_high": 10.183019135352119,
+     "p": 0.02512861714735748,
+     "n": 1253,
+     "events": 22,
+     "model": "illness day (ref 15–21) + risk-factor count"
+    }
+   ]
+  },
+  "M3d": {
+   "summary": {
+    "n": 1526,
+    "events": 22,
+    "coh_n": 1618,
+    "capillary_pct": 94.7,
+    "same_day_pct": 91.5,
+    "triage": {
+     "lab_triage": {
+      "echoes": 682,
+      "echoes_avoided_pct": 55.31,
+      "detected": 13,
+      "missed": 9,
+      "sensitivity_pct": 59.09,
+      "echoes_per_aneurysm_detected": 52.46,
+      "echoes_avoided_per_aneurysm_missed": 93.78
+     },
+     "risk_factor_triage": {
+      "echoes": 932,
+      "echoes_avoided_pct": 38.93,
+      "detected": 18,
+      "missed": 4,
+      "sensitivity_pct": 81.82,
+      "echoes_per_aneurysm_detected": 51.78,
+      "echoes_avoided_per_aneurysm_missed": 148.5
+     }
+    }
+   },
+   "flags": [
+    {
+     "flag": "Platelets ≥450 ×10⁹/L",
+     "prevalence_n": 611,
+     "prevalence_pct": 40.0,
+     "aneurysm_with_flag_events": 12,
+     "aneurysm_with_flag_n": 611,
+     "aneurysm_with_flag_pct": 1.96,
+     "aneurysm_without_flag_events": 10,
+     "aneurysm_without_flag_n": 915,
+     "aneurysm_without_flag_pct": 1.09
+    },
+    {
+     "flag": "Platelets ≥1,000 ×10⁹/L",
+     "prevalence_n": 4,
+     "prevalence_pct": 0.3,
+     "aneurysm_with_flag_events": 0,
+     "aneurysm_with_flag_n": 4,
+     "aneurysm_with_flag_pct": 0.0,
+     "aneurysm_without_flag_events": 22,
+     "aneurysm_without_flag_n": 1522,
+     "aneurysm_without_flag_pct": 1.45
+    },
+    {
+     "flag": "WBC ≥15 ×10⁹/L",
+     "prevalence_n": 57,
+     "prevalence_pct": 3.7,
+     "aneurysm_with_flag_events": 1,
+     "aneurysm_with_flag_n": 57,
+     "aneurysm_with_flag_pct": 1.75,
+     "aneurysm_without_flag_events": 21,
+     "aneurysm_without_flag_n": 1469,
+     "aneurysm_without_flag_pct": 1.43
+    },
+    {
+     "flag": "Hemoglobin <100 g/L",
+     "prevalence_n": 147,
+     "prevalence_pct": 9.6,
+     "aneurysm_with_flag_events": 3,
+     "aneurysm_with_flag_n": 147,
+     "aneurysm_with_flag_pct": 2.04,
+     "aneurysm_without_flag_events": 19,
+     "aneurysm_without_flag_n": 1379,
+     "aneurysm_without_flag_pct": 1.38
+    }
+   ],
+   "auc": [
+    {
+     "index": "PLT",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.638,
+     "auc_ci": "0.511–0.760",
+     "auc_capillary_only": 0.623,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.705,
+     "delta_auc": 0.035,
+     "delta_auc_ci": "-0.009–0.129",
+     "posthoc_delta_auc_optimism_corrected": 0.019,
+     "median_aneurysm": 521.5,
+     "median_no_aneurysm": 420.0
+    },
+    {
+     "index": "WBC",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.562,
+     "auc_ci": "0.433–0.687",
+     "auc_capillary_only": 0.542,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.663,
+     "delta_auc": -0.007,
+     "delta_auc_ci": "-0.028–0.054",
+     "posthoc_delta_auc_optimism_corrected": -0.021,
+     "median_aneurysm": 7.39,
+     "median_no_aneurysm": 7.34
+    },
+    {
+     "index": "NEUT",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.523,
+     "auc_ci": "0.391–0.646",
+     "auc_capillary_only": 0.507,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.66,
+     "delta_auc": -0.01,
+     "delta_auc_ci": "-0.027–0.067",
+     "posthoc_delta_auc_optimism_corrected": -0.027,
+     "median_aneurysm": 2.45,
+     "median_no_aneurysm": 2.57
+    },
+    {
+     "index": "LYM",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.589,
+     "auc_ci": "0.472–0.708",
+     "auc_capillary_only": 0.566,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.674,
+     "delta_auc": 0.004,
+     "delta_auc_ci": "-0.018–0.058",
+     "posthoc_delta_auc_optimism_corrected": -0.01,
+     "median_aneurysm": 4.14,
+     "median_no_aneurysm": 3.74
+    },
+    {
+     "index": "Hb",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.387,
+     "auc_ci": "0.283–0.501",
+     "auc_capillary_only": 0.384,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.681,
+     "delta_auc": 0.011,
+     "delta_auc_ci": "-0.015–0.064",
+     "posthoc_delta_auc_optimism_corrected": 0.003,
+     "median_aneurysm": 108.5,
+     "median_no_aneurysm": 115.0
+    },
+    {
+     "index": "NLR",
+     "n": 1526,
+     "events": 22,
+     "auc": 0.457,
+     "auc_ci": "0.338–0.565",
+     "auc_capillary_only": 0.463,
+     "risk_count_auc": 0.67,
+     "risk_count_plus_index_auc": 0.66,
+     "delta_auc": -0.01,
+     "delta_auc_ci": "-0.044–0.075",
+     "posthoc_delta_auc_optimism_corrected": -0.024,
+     "median_aneurysm": 0.55,
+     "median_no_aneurysm": 0.69
+    },
+    {
+     "index": "dPLT",
+     "n": 1519,
+     "events": 20,
+     "auc": 0.498,
+     "auc_ci": "0.325–0.676",
+     "auc_capillary_only": 0.476,
+     "risk_count_auc": 0.674,
+     "risk_count_plus_index_auc": 0.679,
+     "delta_auc": 0.005,
+     "delta_auc_ci": "-0.025–0.070",
+     "posthoc_delta_auc_optimism_corrected": -0.032,
+     "median_aneurysm": -40.0,
+     "median_no_aneurysm": -33.0
+    },
+    {
+     "index": "dWBC",
+     "n": 1519,
+     "events": 20,
+     "auc": 0.31,
+     "auc_ci": "0.204–0.423",
+     "auc_capillary_only": 0.321,
+     "risk_count_auc": 0.674,
+     "risk_count_plus_index_auc": 0.724,
+     "delta_auc": 0.05,
+     "delta_auc_ci": "0.004–0.159",
+     "posthoc_delta_auc_optimism_corrected": 0.038,
+     "median_aneurysm": -1.69,
+     "median_no_aneurysm": 0.19
+    },
+    {
+     "index": "dHb",
+     "n": 1519,
+     "events": 20,
+     "auc": 0.502,
+     "auc_ci": "0.389–0.620",
+     "auc_capillary_only": 0.498,
+     "risk_count_auc": 0.674,
+     "risk_count_plus_index_auc": 0.666,
+     "delta_auc": -0.008,
+     "delta_auc_ci": "-0.024–0.055",
+     "posthoc_delta_auc_optimism_corrected": -0.023,
+     "median_aneurysm": 6.0,
+     "median_no_aneurysm": 7.0
+    }
+   ]
+  },
+  "M4a": {
+   "table": [
+    {
+     "group": "Aneurysm first documented after discharge (C1)",
+     "n": 45,
+     "reimaged_90d": "37/45",
+     "reimaged_365d": "31/37",
+     "median_days_to_next_echo": 15.5,
+     "inpatient_admission_365d": "5/37",
+     "inpatient_antithrombotic_order_365d": "6/37",
+     "inpatient_order_beyond_aspirin_365d": "5/37",
+     "outpatient_note_90d_available": "26/27",
+     "note_mentions_antithrombotic": "26/26",
+     "note_mentions_beyond_aspirin": "20/26",
+     "note_mentions_aneurysm": "6/26"
+    },
+    {
+     "group": "… found at the first ≤30-d echo after an uncomplicated course",
+     "n": 26,
+     "reimaged_90d": "22/26",
+     "reimaged_365d": "19/22",
+     "median_days_to_next_echo": 14.0,
+     "inpatient_admission_365d": "2/22",
+     "inpatient_antithrombotic_order_365d": "3/22",
+     "inpatient_order_beyond_aspirin_365d": "2/22",
+     "outpatient_note_90d_available": "12/13",
+     "note_mentions_antithrombotic": "12/12",
+     "note_mentions_beyond_aspirin": "9/12",
+     "note_mentions_aneurysm": "2/12"
+    },
+    {
+     "group": "Comparator: small in-hospital aneurysm (time 0 = discharge)",
+     "n": 280,
+     "reimaged_90d": "206/276",
+     "reimaged_365d": "164/223",
+     "median_days_to_next_echo": 7.0,
+     "inpatient_admission_365d": "23/223",
+     "inpatient_antithrombotic_order_365d": "24/223",
+     "inpatient_order_beyond_aspirin_365d": "14/223",
+     "outpatient_note_90d_available": "161/209",
+     "note_mentions_antithrombotic": "152/161",
+     "note_mentions_beyond_aspirin": "74/161",
+     "note_mentions_aneurysm": "12/161"
+    }
+   ],
+   "reference": {
+    "small_inhospital_n": 280,
+    "small_inhospital_extra_antithrombotic_in_index_admission": 199
+   }
+  },
+  "M4b": {
+   "summary": {
+    "index_admissions": 3907,
+    "readmitted_children": {
+     "events": 169,
+     "n": 3907,
+     "pct": 4.33,
+     "ci_low": 3.73,
+     "ci_high": 5.01
+    },
+    "readmissions": 179,
+    "C1_readmitted_children": {
+     "events": 147,
+     "n": 3400,
+     "pct": 4.32,
+     "ci_low": 3.69,
+     "ci_high": 5.06
+    },
+    "days_to_readmission_median": 7.0125,
+    "days_to_readmission_IQR": [
+     4.0881944444444445,
+     11.911805555555556
+    ],
+    "treatments": {
+     "is_ivig": 59,
+     "is_ster": 45,
+     "is_ifx": 6,
+     "aspirin": 38,
+     "dipyridamole": 29,
+     "clopidogrel": 0,
+     "warfarin": 0,
+     "LMWH": 4
+    },
+    "echo_during_readmission": 111,
+    "C1_readmission_echo_vs_index": {
+     "n": 98,
+     "higher": 20,
+     "same": 68,
+     "lower": 10,
+     "new_aneurysm_from_Z_lt_2_5": 10
+    }
+   },
+   "reasons": [
+    {
+     "reason": "Kawasaki disease",
+     "children": 81,
+     "pct": 47.9,
+     "is_ivig": 47,
+     "is_ster": 28,
+     "is_ifx": 6
+    },
+    {
+     "reason": "Other",
+     "children": 36,
+     "pct": 21.3,
+     "is_ivig": 7,
+     "is_ster": 12,
+     "is_ifx": 0
+    },
+    {
+     "reason": "Respiratory infection",
+     "children": 25,
+     "pct": 14.8,
+     "is_ivig": 2,
+     "is_ster": 2,
+     "is_ifx": 0
+    },
+    {
+     "reason": "Other infection or fever",
+     "children": 11,
+     "pct": 6.5,
+     "is_ivig": 1,
+     "is_ster": 1,
+     "is_ifx": 0
+    },
+    {
+     "reason": "Gastrointestinal",
+     "children": 10,
+     "pct": 5.9,
+     "is_ivig": 1,
+     "is_ster": 1,
+     "is_ifx": 0
+    },
+    {
+     "reason": "Coronary artery lesion",
+     "children": 6,
+     "pct": 3.6,
+     "is_ivig": 1,
+     "is_ster": 1,
+     "is_ifx": 0
+    }
+   ]
+  }
+ },
+ "km": [
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "2021 only (rule-based)",
+   "n": 566,
+   "events": 7,
+   "time_d": 30.0,
+   "cum_pct": 1.31,
+   "ci_low": 0.63,
+   "ci_high": 2.74,
+   "p": NaN
+  },
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "2021 only (rule-based)",
+   "n": 566,
+   "events": 7,
+   "time_d": 365.0,
+   "cum_pct": 1.31,
+   "ci_low": 0.63,
+   "ci_high": 2.74,
+   "p": NaN
+  },
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "Pooled 2018–2024 including 2021",
+   "n": 2451,
+   "events": 41,
+   "time_d": 30.0,
+   "cum_pct": 1.59,
+   "ci_low": 1.15,
+   "ci_high": 2.2,
+   "p": NaN
+  },
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "Pooled 2018–2024 including 2021",
+   "n": 2451,
+   "events": 41,
+   "time_d": 365.0,
+   "cum_pct": 1.92,
+   "ci_low": 1.39,
+   "ci_high": 2.65,
+   "p": NaN
+  },
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "Primary (v4 TTE-1)",
+   "n": 1885,
+   "events": 34,
+   "time_d": 30.0,
+   "cum_pct": 1.68,
+   "ci_low": 1.17,
+   "ci_high": 2.41,
+   "p": NaN
+  },
+  {
+   "module": "M1a",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "Primary (v4 TTE-1)",
+   "n": 1885,
+   "events": 34,
+   "time_d": 365.0,
+   "cum_pct": 2.13,
+   "ci_low": 1.49,
+   "ci_high": 3.06,
+   "p": NaN
+  },
+  {
+   "module": "M1b",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "<12 mo",
+   "n": 323,
+   "events": 9,
+   "time_d": 365.0,
+   "cum_pct": 2.89,
+   "ci_low": 1.51,
+   "ci_high": 5.49,
+   "p": NaN
+  },
+  {
+   "module": "M1b",
+   "analysis": "New aneurysm after an uncomplicated course",
+   "group": "≥12 mo",
+   "n": 1562,
+   "events": 25,
+   "time_d": 365.0,
+   "cum_pct": 1.99,
+   "ci_low": 1.29,
+   "ci_high": 3.04,
+   "p": NaN
+  },
+  {
+   "module": "M1b",
+   "analysis": "New aneurysm after an uncomplicated course — log-rank <12 vs ≥12 mo",
+   "group": "P",
+   "n": 1885,
+   "events": 34,
+   "time_d": NaN,
+   "cum_pct": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "p": 0.16585631271031775
+  },
+  {
+   "module": "M1b",
+   "analysis": "Regression of in-hospital aneurysms below Z 2.5",
+   "group": "<12 mo",
+   "n": 93,
+   "events": 68,
+   "time_d": 365.0,
+   "cum_pct": 70.25,
+   "ci_low": 60.17,
+   "ci_high": 79.74,
+   "p": NaN
+  },
+  {
+   "module": "M1b",
+   "analysis": "Regression of in-hospital aneurysms below Z 2.5",
+   "group": "≥12 mo",
+   "n": 248,
+   "events": 173,
+   "time_d": 365.0,
+   "cum_pct": 71.31,
+   "ci_low": 65.01,
+   "ci_high": 77.35,
+   "p": NaN
+  },
+  {
+   "module": "M1b",
+   "analysis": "Regression of in-hospital aneurysms below Z 2.5 — log-rank <12 vs ≥12 mo",
+   "group": "P",
+   "n": 341,
+   "events": 241,
+   "time_d": NaN,
+   "cum_pct": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "p": 0.49067924393788465
+  },
+  {
+   "module": "M4a",
+   "analysis": "Regression below Z 2.5 after a post-discharge aneurysm (time 0 = detection)",
+   "group": "C1",
+   "n": 40,
+   "events": 31,
+   "time_d": 90.0,
+   "cum_pct": 60.27,
+   "ci_low": 45.18,
+   "ci_high": 75.77,
+   "p": NaN
+  },
+  {
+   "module": "M4a",
+   "analysis": "Regression below Z 2.5 after a post-discharge aneurysm (time 0 = detection)",
+   "group": "C1",
+   "n": 40,
+   "events": 31,
+   "time_d": 365.0,
+   "cum_pct": 86.34,
+   "ci_low": 72.17,
+   "ci_high": 95.49,
+   "p": NaN
+  }
+ ]
+}

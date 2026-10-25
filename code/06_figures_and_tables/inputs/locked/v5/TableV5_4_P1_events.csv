@@ -1,0 +1,7 @@
+index_year,inhospital_report_days,inhospital_max_structured_Z,day_after_discharge,category,structured_Z,text_Z,source,status_next_90d,next_echo_days_later,next_echo_category,last_echo_day_after_discharge,last_echo_category,later_echo_days
+2025,2,1.82,8,small,3.62,,numbers,confirmed,10,small,170,none,4
+2025,1,1.43,4,small,2.64,,numbers,confirmed,3,small,460,none,2
+2025,2,-0.17,3,small,3.14,,numbers,confirmed,3,small,431,none,8
+2026,2,1.16,12,small,2.9,,numbers,confirmed,2,small,51,none,4
+2026,3,1.16,10,small,2.11,,numbers+wording_override,confirmed,2,small,12,small,1
+2026,2,1.62,7,small,3.01,,numbers,confirmed,6,small,120,small,3

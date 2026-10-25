@@ -1,0 +1,18 @@
+﻿Cohort,Analysis,Aneurysms/children,% (95% CI),"Any involvement, n"
+Derivation,Primary analysis,"26/1,618",1.61 (1.10–2.34),35
+Derivation,Baseline: last in-hospital report Z < 2 (earlier involvement allowed),"26/1,678",1.55 (1.06–2.26),37
+Derivation,First post-discharge echocardiogram within 60 days,"27/1,739",1.55 (1.07–2.25),36
+Derivation,IVIG-treated children only,"25/1,511",1.65 (1.12–2.43),32
+Derivation,Readmissions within 30 days excluded,"19/1,534",1.24 (0.79–1.93),27
+Derivation,Index admissions 2018–2020,13/709,1.83 (1.07–3.11),16
+Derivation,Index admissions 2022–2024,13/909,1.43 (0.84–2.43),19
+Derivation,First echocardiogram on illness day 11–21,19/921,2.06 (1.32–3.20),24
+Derivation,"Illness day 22–56, after a normal echocardiogram on day 11–21",0/440,0.00 (0.00–0.87),1
+Derivation,Events only from reports with exact numbers (tiers 1–3),"24/1,618",1.48 (1.00–2.20),
+Derivation,All index years 2018–2026 and all echocardiograms (wording model for reports without numbers),"32/2,293",1.40 (0.99–1.96),44
+Derivation,"Rule-based in-hospital baseline, 2018–2024 without 2021 (check)","30/1,647",1.82 (1.28–2.59),48
+Derivation,"Rule-based in-hospital baseline, 2021 only",7/515,1.36 (0.66–2.78),11
+Derivation,Pooled 2018–2024 including 2021,"33/2,133",1.55 (1.10–2.16),46
+Validation,"Primary analysis (structured and text numbers, wording override); predictive P = 0.33",6/615,0.98 (0.45–2.11),
+Validation,Without the wording override; predictive P = 0.19,5/615,0.81 (0.35–1.89),
+Validation,Derivation-era report categories (wording model); predictive P = 0.35,6/606,0.99 (0.45–2.14),

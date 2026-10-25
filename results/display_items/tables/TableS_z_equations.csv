@@ -1,0 +1,12 @@
+﻿Equation,"Within 0.1, %","Within 0.25, %","Within 0.5, %",Median |difference|
+"Laboratory equation (reconstructed), Stevenson BSA",94.7,95.3,97.3,0.003
+"Beijing 2013, Stevenson BSA",8.2,19.7,37.0,0.697
+"Beijing 2013, Haycock BSA",5.8,16.4,35.3,0.735
+"Beijing 2013, DuBois BSA",9.3,21.4,38.9,0.681
+"Beijing 2013, Mosteller BSA",6.6,18.1,36.3,0.720
+"Shenzhen 2021, Stevenson BSA",11.4,32.3,65.4,0.348
+"Shenzhen 2021, Haycock BSA",10.6,28.7,66.2,0.385
+"Dallaire 2011, Haycock BSA",7.5,19.0,41.0,0.589
+"Dallaire 2011, Stevenson BSA",6.4,17.3,35.4,0.698
+"Dallaire 2011, DuBois BSA",6.1,16.4,34.5,0.696
+"Dallaire 2011, Mosteller BSA",6.9,18.2,38.9,0.617

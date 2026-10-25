@@ -1,0 +1,63 @@
+RESULTS LOCK — v5 (2026-10-14) — temporal validation of the KD surveillance-echo results, Wuhan Children's Hospital
+Computed by KD_echo_surveillance_v5_validation.ipynb. Every number is computed. Locked v4/v4.1 results are unchanged.
+
+V0. Plan, data and integrity
+- Plan: V5_VALIDATION_PLAN.txt, SHA-256 8d6b811b2d42ac80cdc4438b7adbeb9623e39ff962899e710c72c0c6f482065f (locked 2026-10-14T10:47:36Z, before any validation outcome was computed).
+- Locked references: Results_locked_v4.txt SHA-256 5940f6a3c0bb69cc3d870fd48b60beaf2ca593911657c7b019ed0f4bb34d5aa3; Results_locked_v4_1.txt SHA-256 5600d5765bb34348dcfeab220325a4a7abe1e8b28a979d1ee6ac18777d14ee55.
+- Structured export: echo_measure_2025_2026.xlsx, SHA-256 3c058add9dcb1ed49357bdd0fdab04e0da699482008936df88ee96b4eba71856.
+- Kit v1.1 table KD_echo_measure_2025_2026_v1.parquet: 7,213 rows, SHA-256 f73c170308eaacf36cae5b3a168c7b5da2adb5cc06fbc89cc048285370e622ad.
+- Kit v1.1 table KD_echo_reports_combined_v5.parquet: 7,212 rows, SHA-256 e7a568acdf97188a45fd6ec5da2f460b9acf6129332eab5e83b3d589bc4d53d2.
+- Export window 2025-03-08 to 2026-09-23 (DATA_END); 7,213 reports of 2,596 children; 7,212 frozen reports in the window, all matched to the structured table by research patient ID and exam date.
+- Source of the per-report category: numbers 6,948; wording_only 158; none 82; numbers+wording_override 24.
+- v4 reference values recomputed from cohort_C1_primary_v4 and found in Results_locked_v4.txt: P1 26/1,618; S1 35/1,618; S2 11/1,618; S4_aneurysm 1/1,028; S4_involvement 5/1,028.
+
+V1. Validation cohort (V)
+- Index admissions with the first in-hospital echocardiogram on or after 2025-03-08: 1,103; with a classifiable in-hospital report (V): 1,101 (2025: 587, 2026: 514).
+- In-hospital maximum: none 915; dilation only 36; small 107; medium 29; large/giant 14.
+- Uncomplicated (in-hospital maximum none): 915; complete 30-day follow-up: 860; first classifiable echocardiogram 1–30 d after discharge: 615 (71.5%; v4 1,618/2,839 = 57.0%); first echo on day 7 after discharge [IQR 6–9] (v4 8 [7–9]).
+- The preliminary pre-lock counts in plan section 3 (812 uncomplicated; 546 with a first echocardiogram 1–30 d; 311 for 31–90 d) came from a stricter draft screening rule (every in-hospital report matched to the export and normal by structured Z, text Z and wording, including "upper limit of normal" wording, and any post-discharge report counted); the final cohort follows plan sections 4–5.
+
+V2. Primary endpoint P1 (aneurysm at the first classifiable echocardiogram 1–30 d after discharge, uncomplicated course)
+- P1: 6/615 = 0.98% (95% CI 0.45–2.11) vs v4 26/1,618 = 1.61% (95% CI 1.10–2.34).
+  Difference -0.63 percentage points (Newcombe 95% CI -1.54 to +0.61); expected events under v4 10.1; predictive compatibility P = 0.33 -> replicated.
+  Pooled 2018–2026: 32/2,233 = 1.43% (95% CI 1.02–2.02).
+
+V3. Secondary endpoints
+- S1 any involvement at the same echocardiogram: 11/615 = 1.79% (95% CI 1.00–3.17) vs v4 35/1,618 = 2.16% (95% CI 1.56–2.99).
+  Difference -0.37 percentage points (Newcombe 95% CI -1.52 to +1.14); expected events under v4 13.5; predictive compatibility P = 0.68 -> replicated.
+  Pooled 2018–2026: 46/2,233 = 2.06% (95% CI 1.55–2.74).
+- S2 medium or larger at the same echocardiogram: 0/615 = 0.00% (95% CI 0.00–0.62) vs v4 11/1,618 = 0.68% (95% CI 0.38–1.21).
+  Difference -0.68 percentage points (Newcombe 95% CI -1.21 to +0.01); expected events under v4 4.4; predictive compatibility P = 0.049 -> not replicated (fewer events than predicted).
+  Pooled 2018–2026: 11/2,233 = 0.49% (95% CI 0.28–0.88).
+- S3 aneurysm on any echocardiogram within 30 d: 6/615 = 0.98% (95% CI 0.45–2.11) (v4, for context: 29/1,618 = 1.79% (95% CI 1.25–2.56)).
+- S4 aneurysm at 31–90 d after normal 1–30-d echocardiograms: 0/374 = 0.00% (95% CI 0.00–1.02) vs v4 1/1,028 = 0.10% (95% CI 0.02–0.55).
+  Difference -0.10 percentage points (Newcombe 95% CI -0.55 to +0.92); expected events under v4 0.6; predictive compatibility P = 1.00 -> replicated.
+  Pooled 2018–2026: 1/1,402 = 0.07% (95% CI 0.01–0.40).
+- S4 any involvement at 31–90 d: 2/374 = 0.53% (95% CI 0.15–1.93) (v4 5/1,028 = 0.49% (95% CI 0.21–1.13); comparison not pre-specified: predictive P = 1.00).
+- S5 91–365 d after normal findings in all earlier windows (complete 365-day follow-up): aneurysm 0/117 = 0.00% (95% CI 0.00–3.18); any involvement 0/117 = 0.00% (95% CI 0.00–3.18).
+- S6 persistence of the P1 events (next classifiable echocardiogram ≤90 d): confirmed 6, not confirmed 0, not re-imaged 0; size at detection {'small': 6}; days to the next echocardiogram median 3.0 (range 2–10).
+- S7 risk-factor strategy (echo only if ≥1 of age <12 months, IVIG resistance, in-hospital dilation only, discharge CRP >20 mg/L or WBC >12 ×10⁹/L), children discharged with in-hospital maximum ≤ dilation only and a first echo ≤30 d (complete follow-up): n = 636, aneurysms 8; echoes 322 (avoided 49.4%); detected 8, missed 0; sensitivity 8/8 = 100.00% (95% CI 67.56–100.00); aneurysms by risk-factor count: 0 factors 0/314, 1 factor 5/224, ≥2 factors 3/98.
+- S8 cohort C1, locked v4 scope (echocardiograms to 2025-02-28): W3 aneurysm 0/609 (95% CI 0.00–0.63), any involvement 2/609; W4 aneurysm 0/221 (95% CI 0.00–1.71), any involvement 0/221.
+- S8 cohort C1, extended to the end of the structured export: W3 aneurysm 0/654 (95% CI 0.00–0.58), any involvement 3/654; W4 aneurysm 0/328 (95% CI 0.00–1.16), any involvement 1/328.
+  The locked-scope row reproduces the v4 values (W3 0/609, involvement 2/609; W4 0/221, involvement 0/221).
+
+V4. Sensitivity analyses of P1 (source of the coronary category)
+- Primary: combined rule: 6/615 = 0.98% (95% CI 0.45–2.11); predictive compatibility with v4 P = 0.33.
+- (a) without the wording override: 5/615 = 0.81% (95% CI 0.35–1.89); predictive compatibility with v4 P = 0.19.
+- (b) v4 report categories (wording model in this period): 6/606 = 0.99% (95% CI 0.45–2.14); predictive compatibility with v4 P = 0.35.
+
+V5. Additional analyses (not pre-specified; descriptive)
+- Confirmed new aneurysms (Z ≥ 2.5 again on the next echo ≤90 d; definition (a) of v4.1 module M2b): v5 6/615 = 0.98% (95% CI 0.45–2.11); v4.1 13/1,618 = 0.80% (95% CI 0.47–1.37).
+- Confirmed among re-imaged: v5 6/6 = 100.00% (95% CI 60.97–100.00); v4.1 13/22 = 59.09% (95% CI 38.73–76.74); Fisher exact P = 0.14 (post hoc). Not re-imaged ≤90 d: v5 0, v4.1 4.
+- P1 events one by one (TableV5_4_P1_events.csv): days after discharge 8, 4, 3, 12, 10, 7; structured Z at detection 3.62, 2.64, 3.14, 2.90, 2.11, 3.01; maximal in-hospital structured Z 1.82, 1.43, -0.17, 1.16, 1.16, 1.62; source numbers, numbers, numbers, numbers, numbers+wording_override, numbers; last category none, none, none, none, small, small at day 170, 460, 431, 51, 12, 120.
+
+V6. Deviations from the plan
+- None in the pre-specified analyses. Additions (labelled): the S4 any-involvement comparison with v4, section V5, and the expected event counts under v4.
+- Post hoc check of the wording of plan 4(b): the override was implemented with the segment term and 扩张|瘤 anywhere in the conclusion (24 reports); requiring both in the same clause gives 21 reports and P1 5/615 = 0.81% (95% CI 0.35–1.89), predictive P = 0.19.
+- Implementation notes: the export carries no report key, so structured values were linked to the frozen reports by research patient ID and exam date (day level), in line with the same-day maximum rule; six exact duplicate rows of the frozen report table were dropped, as stated in the plan.
+
+V7. Reading and caveats
+- "Replicated" means no detectable incompatibility with v4 (beta-binomial predictive P ≥ 0.05); it is not proof of equality. Event counts in V are small.
+- The S2 reading sits at the threshold: with 0 events the predictive P falls below 0.05 only from n = 610; with the v4 report categories (rule b) S2 is 0/606 = 0.00% (95% CI 0.00–0.63), predictive P = 0.051. The direction is fewer medium or larger aneurysms than v4 predicts.
+- Temporal, single-center validation with the same laboratory Z equations; the structured table covers proximal segments only (non-proximal findings rely on text numbers or the wording override).
+- Children without a classifiable echocardiogram 1–30 d after discharge are not in the P1 denominator; 2026 admissions have short follow-up beyond 90 d.

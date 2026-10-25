@@ -1,0 +1,7 @@
+scope,inhospital_report_wording,None,Dilation only,Small,Medium,Large/giant
+primary,normal,2830,113,8,0,0
+primary,dilation,9,16,266,82,16
+primary,aneurysm,0,0,6,15,39
+all,normal,3818,149,10,0,0
+all,dilation,9,17,380,105,31
+all,aneurysm,0,0,7,17,50

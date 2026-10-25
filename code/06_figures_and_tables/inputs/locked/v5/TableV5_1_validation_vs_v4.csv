@@ -1,0 +1,6 @@
+key,prespecified_comparison,endpoint,v5_events,v5_n,v5_pct,v5_ci_low,v5_ci_high,v4_events,v4_n,v4_pct,v4_ci_low,v4_ci_high,diff_pp,diff_ci_low,diff_ci_high,predictive_P,reading,pooled_events,pooled_n,pooled_pct,pooled_ci_low,pooled_ci_high,expected_v5_events_under_v4
+P1,True,P1 aneurysm at the first echocardiogram 1-30 d,6,615,0.98,0.45,2.11,26,1618,1.61,1.1,2.34,-0.63,-1.54,0.61,0.3329,replicated,32,2233,1.43,1.02,2.02,10.07
+S1,True,S1 any involvement at the first echocardiogram 1-30 d,11,615,1.79,1.0,3.17,35,1618,2.16,1.56,2.99,-0.37,-1.52,1.14,0.6796,replicated,46,2233,2.06,1.55,2.74,13.49
+S2,True,S2 medium or larger at the first echocardiogram 1-30 d,0,615,0.0,0.0,0.62,11,1618,0.68,0.38,1.21,-0.68,-1.21,0.01,0.0487,not replicated,11,2233,0.49,0.28,0.88,4.37
+S4_aneurysm,True,S4 aneurysm at 31-90 d after normal 1-30-d echocardiograms,0,374,0.0,0.0,1.02,1,1028,0.1,0.02,0.55,-0.1,-0.55,0.92,1.0,replicated,1,1402,0.07,0.01,0.4,0.55
+S4_involvement,False,S4 any involvement at 31-90 d after normal 1-30-d echocardiograms (comparison not pre-specified),2,374,0.53,0.15,1.93,5,1028,0.49,0.21,1.13,0.05,-0.71,1.47,1.0,replicated,7,1402,0.5,0.24,1.03,2.0

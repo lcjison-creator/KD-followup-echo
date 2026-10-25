@@ -1,0 +1,5 @@
+assumption,within_sd,children,observed_aneurysms,expected_from_noise,p_observed_or_more_under_noise_only
+within-subject SD of set B (pre-specified),1.666,276,8,36.94,1.0
+within-subject SD of set A (pre-specified sensitivity),1.789,276,8,40.74,1.0
+post hoc: robust within-subject SD of set B,0.591,276,8,4.66,0.0891
+post hoc: robust within-subject SD of set A,0.681,276,8,6.68,0.3495

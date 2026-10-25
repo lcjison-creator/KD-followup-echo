@@ -1,0 +1,9 @@
+﻿Outcome,Variable,Odds ratio (95% CI),P value
+In-hospital aneurysm,Age <6 months (vs ≥12),3.19 (2.33–4.38),<0.001
+In-hospital aneurysm,Age 6–11 months (vs ≥12),1.18 (0.84–1.66),0.33
+In-hospital aneurysm,Male sex,1.82 (1.44–2.30),<0.001
+In-hospital aneurysm,IVIG resistance,2.53 (1.97–3.26),<0.001
+In-hospital medium or larger,Age <6 months (vs ≥12),3.29 (2.09–5.18),<0.001
+In-hospital medium or larger,Age 6–11 months (vs ≥12),1.71 (1.05–2.77),0.030
+In-hospital medium or larger,Male sex,1.85 (1.26–2.72),0.002
+In-hospital medium or larger,IVIG resistance,3.01 (2.09–4.34),<0.001

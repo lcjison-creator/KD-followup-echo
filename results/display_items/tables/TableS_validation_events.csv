@@ -1,0 +1,7 @@
+﻿Event,Index year,In-hospital maximal Z (structured),Day after discharge,Category,Z (structured),Z (text),Source,Next echo ≤90 d,Days to next echo,Category at next echo,"Last echo, day after discharge",Category at last echo
+1,2025,1.82,8,small,3.62,,Structured measurements,confirmed,10,small,170,none
+2,2025,1.43,4,small,2.64,,Structured measurements,confirmed,3,small,460,none
+3,2025,-0.17,3,small,3.14,,Structured measurements,confirmed,3,small,431,none
+4,2026,1.16,12,small,2.9,,Structured measurements,confirmed,2,small,51,none
+5,2026,1.16,10,small,2.11,,Structured measurements and report conclusion,confirmed,2,small,12,small
+6,2026,1.62,7,small,3.01,,Structured measurements,confirmed,6,small,120,small

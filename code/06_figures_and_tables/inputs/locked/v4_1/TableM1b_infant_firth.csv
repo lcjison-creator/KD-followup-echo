@@ -1,0 +1,9 @@
+variable,n_with,events_with,events_without,OR,CI_low,CI_high,p,outcome,n,events
+Age <6 months (vs ≥12),221,67,365,3.19,2.33,4.38,6.570299859731676e-13,in-hospital aneurysm,3400,432
+Age 6–11 months (vs ≥12),337,45,387,1.18,0.84,1.66,0.3332853881058315,in-hospital aneurysm,3400,432
+Male sex,2166,325,107,1.82,1.44,2.3,5.353240581928986e-07,in-hospital aneurysm,3400,432
+IVIG resistance,429,106,326,2.53,1.97,3.26,6.032951915813101e-13,in-hospital aneurysm,3400,432
+Age <6 months (vs ≥12),221,27,125,3.29,2.09,5.18,2.7055152740373956e-07,in-hospital medium or larger,3400,152
+Age 6–11 months (vs ≥12),337,21,131,1.71,1.05,2.77,0.030192912477985168,in-hospital medium or larger,3400,152
+Male sex,2166,117,35,1.85,1.26,2.72,0.001670451050085342,in-hospital medium or larger,3400,152
+IVIG resistance,429,46,106,3.01,2.09,4.34,3.2513922665344808e-09,in-hospital medium or larger,3400,152

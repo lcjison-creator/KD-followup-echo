@@ -1,0 +1,4 @@
+analysis,events,n,pct,ci_low,ci_high,predictive_P
+Primary: combined rule,6,615,0.98,0.45,2.11,0.3329
+(a) without the wording override,5,615,0.81,0.35,1.89,0.1936
+(b) v4 report categories (wording model in this period),6,606,0.99,0.45,2.14,0.3517

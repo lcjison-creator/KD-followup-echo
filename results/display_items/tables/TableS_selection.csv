@@ -1,0 +1,7 @@
+﻿Estimate,Aneurysms/children,% (95% CI)
+Observed (children with the echocardiogram),"26/1,618",1.61 (1.10–2.34)
+Inverse probability weighting,,1.54 (0.98–2.21)
+"Standardized to the risk-factor distribution of all 2,839 children",,1.55 (1.00–2.19)
+Lower bound: no aneurysm in any child without the echocardiogram,"26/2,839",0.92 (0.63–1.34)
+Rate among children without the echocardiogram that would double the overall rate,,5.34
+Children without it who had an echocardiogram 31–365 days after discharge,3/199,1.51 (0.51–4.34)

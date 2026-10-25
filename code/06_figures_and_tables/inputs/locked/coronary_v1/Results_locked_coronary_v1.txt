@@ -1,0 +1,72 @@
+RESULTS LOCK — coronary reclassification v1 (2026-09-30) — computed by KD_coronary_AHA_v1.ipynb from 川崎病重新导出30天_1/2/3.xlsx (data end 2026-09-28).
+AHA 2017 categories: none Z<2; dilation only 2–<2.5; small 2.5–<5; medium 5–<10; large/giant Z≥10 or ≥8 mm (maximal LMCA/LAD/RCA Z; written LCX Z counted).
+
+C0. Data
+- Echo reports 30,003; with a numeric category 7,547 (complete 7,453; floor only 94); maximal Z written by the sonographer in 4,196, computed from a written diameter in 3,351.
+- Decimal-point corrections 1; implausible integer diameters dropped 32.
+C1. The laboratory's Z equations can be reconstructed
+- 12,492 diameter–Z pairs from 4,061 reports printing height and weight; Stevenson BSA; mean = a + b·√BSA + c·BSA, constant SD.
+- Computed vs written Z: median |difference| 0.003; within 0.1 in 94.7%, within 0.5 in 97.3% (BSA > 1.4 m², outside the laboratory's stated reference range: 91.5% within 0.5).
+  LMCA: a -0.3684, b 4.9000, c -1.7633, SD 0.3242 mm (n = 3,859 pairs, 2018–2026).
+  LAD: a -0.3806, b 4.2197, c -1.5673, SD 0.2882 mm (n = 3,722 pairs, 2018–2026).
+  RCA: a -0.5758, b 5.0284, c -2.1865, SD 0.3321 mm (n = 4,881 pairs, 2018–2026).
+- Age–sex median BSA used as last resort: median |ΔZ| 0.10 (P90 0.31); aneurysm (Z ≥ 2.5) agreement 97.6%.
+C2. What the words mean (reports with a complete numeric category; % none / dilation only / small / medium / large-giant)
+- 'normal' (n = 4,087): 96.6 / 2.7 / 0.7 / 0.0 / 0.0; median maximal Z 0.36 (IQR -0.25–1.08). Written-Z subset (n = 1,170): 91.5 / 7.4 / 1.1 / 0.0 / 0.0.
+- 'upper-normal' (n = 482): 10.6 / 84.2 / 5.0 / 0.2 / 0.0; median maximal Z 2.21 (IQR 2.09–2.38). Written-Z subset (n = 467): 8.6 / 86.3 / 5.1 / 0.0 / 0.0.
+- 'dilation' (n = 1,999): 2.1 / 4.4 / 61.1 / 24.7 / 7.8; median maximal Z 3.83 (IQR 2.92–5.8). Written-Z subset (n = 1,816): 1.0 / 3.4 / 62.9 / 25.6 / 7.0.
+- 'aneurysm' (n = 885): 0.2 / 0.0 / 5.6 / 26.8 / 67.3; median maximal Z 12.8 (IQR 8.64–20.5). Written-Z subset (n = 723): 0.3 / 0.0 / 6.1 / 29.9 / 63.8.
+- 'Dilation' reports that are AHA aneurysms, by year: 2018 76.9%, 2019 80.2%, 2020 94.5%, 2021 96.8%, 2022 98.1%, 2023 96.6%, 2024 94.7%, 2025 94.8%, 2026 86.8%.
+C3. Evidence tiers (reports): tier 0: 676, tier 1: 4,176, tier 2: 3,277, tier 3: 44, tier 4: 21,830 (0 = no coronary statement and no number); note values contradicting their report's wording, not used: 3.
+- Exact evidence (tiers 1–3) among reports worded dilation/aneurysm, by year: 2018 97.4% of 228, 2019 98.8% of 168, 2020 96.3% of 188, 2021 100.0% of 240, 2022 100.0% of 494, 2023 99.8% of 613, 2024 99.8% of 664, 2025 42.3% of 626, 2026 20.1% of 407.
+- Tier 3 linkage (dated_exact): exact AHA agreement 97.9%, aneurysm agreement 99.3% (n = 429 reports that also have their own numbers).
+- Tier 3 linkage (undated_le7d): exact AHA agreement 98.6%, aneurysm agreement 99.8% (n = 487 reports that also have their own numbers).
+C4. Wording model (Tier 4)
+- CV (grouped by child), all reports: n 7,453; exact 5-category accuracy 83.7%; weighted kappa 0.871; AUC aneurysm 0.990; AUC large 0.973; aneurysm yes/no accuracy 97.7%; observed/predicted aneurysm 37.7%/37.7%.
+- CV, reports worded dilation/aneurysm: n 2,884; exact 5-category accuracy 65.3%; weighted kappa 0.586; AUC aneurysm 0.853; AUC large 0.914; aneurysm yes/no accuracy 96.0%; observed/predicted aneurysm 95.5%/95.3%.
+- CV, reports worded normal: n 4,569; exact 5-category accuracy 95.3%; weighted kappa 0.752; AUC aneurysm 0.688; AUC large nan; aneurysm yes/no accuracy 98.8%; observed/predicted aneurysm 1.2%/1.3%.
+- CV, wording category alone (benchmark): n 7,453; exact 5-category accuracy 78.0%; weighted kappa 0.817; AUC aneurysm 0.978; AUC large 0.940; aneurysm yes/no accuracy 97.5%; observed/predicted aneurysm 37.7%/37.7%.
+- temporal: train <=2022, test >=2023: n 2,803; exact 5-category accuracy 76.7%; weighted kappa 0.835; AUC aneurysm 0.986; AUC large 0.954; aneurysm yes/no accuracy 97.1%; observed/predicted aneurysm 55.3%/56.5%.
+- Specification sensitivity, 2025–2026 reports without numbers (mean predicted probability, primary vs alternative model without a 2025–26 era term): dilation (n = 521) primary: P(aneurysm) 0.96, P(medium+) 0.28, P(large) 0.14; dilation (n = 521) alternative: P(aneurysm) 0.96, P(medium+) 0.43, P(large) 0.12; aneurysm (n = 94) primary: P(aneurysm) 1.00, P(medium+) 0.94, P(large) 0.80; aneurysm (n = 94) alternative: P(aneurysm) 1.00, P(medium+) 0.96, P(large) 0.69.
+C5. Blinded manual extraction audits
+- development (n = 200): all seven numeric fields agree 195/200 (97.5%); per-vessel diameter 100.0/99.0/99.5/98.5%; written Z 100.0/99.5/100.0%; unmeasured-segment flag 150/150 (missed 0, over-called 0).
+- validation (n = 150): all seven numeric fields agree 149/150 (99.3%); per-vessel diameter 100.0/100.0/100.0/99.3%; written Z 100.0/100.0/99.3%; unmeasured-segment flag 105/105 (missed 0, over-called 0).
+- final_check (n = 100): all seven numeric fields agree 99/100 (99.0%); per-vessel diameter 99.0/99.0/100.0/100.0%; written Z 99.0/99.0/100.0%; unmeasured-segment flag 85/85 (missed 0, over-called 0).
+  first look (development, before the fixes it prompted): all seven fields 186/200; flag reader-yes 33; extractor missed 0, over-called 37.
+  first look (validation, before the fixes it prompted): all seven fields 148/150; flag missed 0, over-called 7 of 105.
+  first look (final_check, before the fixes it prompted): all seven fields 95/100; flag missed 0, over-called 6 of 85.
+C6. External anchors (children, whole follow-up)
+- AHA category (whole follow-up) = None: n 5,012; warfarin 0.0%; clopidogrel 1.0%; LMWH 1.3%.
+- AHA category (whole follow-up) = Dilation only: n 210; warfarin 0.0%; clopidogrel 2.9%; LMWH 2.9%.
+- AHA category (whole follow-up) = Small: n 447; warfarin 0.2%; clopidogrel 9.6%; LMWH 4.0%.
+- AHA category (whole follow-up) = Medium: n 151; warfarin 1.3%; clopidogrel 39.7%; LMWH 2.6%.
+- AHA category (whole follow-up) = Large/giant: n 138; warfarin 42.8%; clopidogrel 62.3%; LMWH 26.8%.
+- report wording (whole follow-up) = normal: n 5,209; warfarin 0.0%; clopidogrel 1.1%; LMWH 1.3%.
+- report wording (whole follow-up) = dilation: n 622; warfarin 1.8%; clopidogrel 17.5%; LMWH 5.8%.
+- report wording (whole follow-up) = aneurysm: n 127; warfarin 40.2%; clopidogrel 63.0%; LMWH 19.7%.
+- Warfarin-treated children (n = 62): AHA {2: 1, 3: 2, 4: 59}; wording {'aneurysm': 51, 'dilation': 11}.
+- Index discharge coding by in-hospital AHA category: None n 3,874: coded aneurysm 0.1%, coded dilation 0.8%; Dilation only n 168: coded aneurysm 0.0%, coded dilation 22.6%; Small n 403: coded aneurysm 4.7%, coded dilation 80.4%; Medium n 126: coded aneurysm 19.0%, coded dilation 78.6%; Large/giant n 85: coded aneurysm 63.5%, coded dilation 32.9%.
+C7. Frozen master v1.3 (reference only)
+- Overlap 3,695 children; exact agreement (0/1/2) 91.1%.
+- Master 'qualitative dilation' (n = 216): this pipeline {0: 86, 1: 6, 2: 124} (0 = <2, 1 = 2–<2.5, 2 = ≥2.5); 83 have only normal-worded in-hospital reports in this export (30 with coronary dilation from a pre-admission echo quoted in the admission narrative, 8 coded 冠状动脉扩张).
+- Master class 1 (n = 302): {0: 95, 1: 77, 2: 130}; master class 2 (n = 359): {0: 19, 1: 12, 2: 328}.
+C8. Impact on the locked surveillance results (cohort C1)
+- C1 n = 4,593. In-hospital maximum by wording {'normal': 3977, 'dilation': 542, 'aneurysm': 74}; by AHA {'None': 3827, 'Small': 397, 'Dilation only': 166, 'Medium': 122, 'Large/giant': 81} (evidence {'wording_model_only': 3367, 'numeric': 1205, 'numeric_plus_model': 21}).
+- In-hospital aneurysm: wording 74 vs AHA 600 (expected from probabilities 651); in-hospital 'dilation' wording → AHA {'Small': 380, 'Medium': 105, 'Large/giant': 31, 'Dilation only': 17, 'None': 9}.
+- Children ever with an AHA aneurysm 654: first documented in hospital 600, after discharge 54 {'post30': 45, 'gt365': 4, 'd91_365': 3, 'd31_90': 2}; in-hospital category of the latter {'None': 44, 'Dilation only': 10}; tier of the first aneurysm report {1: 37, 2: 8, 4: 8, 3: 1}.
+- Wording-defined post-discharge-first aneurysms 27 (of 101): in-hospital AHA category {'Medium': 10, 'Large/giant': 8, 'None': 6, 'Small': 3}.
+- In-hospital 'dilation' followed after discharge 422; later worded aneurysm 21: in-hospital AHA {'Medium': 10, 'Large/giant': 8, 'Small': 3}, later maximal AHA {'Large/giant': 17, 'Medium': 4}; AHA category increase 9; from <2.5 to aneurysm 0.
+- First post-discharge echo ≤30 d | wording normal in hospital (v3 definition) (n = 2,388) | wording lesion (dilation/aneurysm): 36 (1.51%; 95% CI 1.09–2.08; from model tier 8).
+- First post-discharge echo ≤30 d | wording normal in hospital (v3 definition) (n = 2,388) | AHA >= dilation only (Z>=2): 70 (2.93%; 95% CI 2.33–3.69; from model tier 17).
+- First post-discharge echo ≤30 d | wording normal in hospital (v3 definition) (n = 2,388) | AHA aneurysm (Z>=2.5): 40 (1.68%; 95% CI 1.23–2.27; from model tier 8).
+- First post-discharge echo ≤30 d | wording normal in hospital (v3 definition) (n = 2,388) | AHA medium or larger (Z>=5): 12 (0.50%; 95% CI 0.29–0.88; from model tier 0).
+- First post-discharge echo ≤30 d | AHA no involvement in hospital (Z<2) (n = 2,293) | wording lesion (dilation/aneurysm): 31 (1.35%; 95% CI 0.95–1.91; from model tier 7).
+- First post-discharge echo ≤30 d | AHA no involvement in hospital (Z<2) (n = 2,293) | AHA >= dilation only (Z>=2): 44 (1.92%; 95% CI 1.43–2.57; from model tier 10).
+- First post-discharge echo ≤30 d | AHA no involvement in hospital (Z<2) (n = 2,293) | AHA aneurysm (Z>=2.5): 32 (1.40%; 95% CI 0.99–1.96; from model tier 7).
+- First post-discharge echo ≤30 d | AHA no involvement in hospital (Z<2) (n = 2,293) | AHA medium or larger (Z>=5): 11 (0.48%; 95% CI 0.27–0.86; from model tier 0).
+- First post-discharge echo ≤30 d | AHA <2.5 in hospital (none or dilation only) (n = 2,401) | wording lesion (dilation/aneurysm): 40 (1.67%; 95% CI 1.23–2.26; from model tier 8).
+- First post-discharge echo ≤30 d | AHA <2.5 in hospital (none or dilation only) (n = 2,401) | AHA >= dilation only (Z>=2): 72 (3.00%; 95% CI 2.39–3.76; from model tier 17).
+- First post-discharge echo ≤30 d | AHA <2.5 in hospital (none or dilation only) (n = 2,401) | AHA aneurysm (Z>=2.5): 41 (1.71%; 95% CI 1.26–2.31; from model tier 8).
+- First post-discharge echo ≤30 d | AHA <2.5 in hospital (none or dilation only) (n = 2,401) | AHA medium or larger (Z>=5): 12 (0.50%; 95% CI 0.29–0.87; from model tier 0).
+C9. Manual table look-up worklist
+- 119 reports (109 children) {'A': 65, 'B': 54} (A = aneurysm yes/no or large/giant uncertain; B = size small vs medium+ uncertain); by year {2018: 2, 2023: 1, 2024: 1, 2025: 55, 2026: 60}.

@@ -1,0 +1,27 @@
+stratum,events,n,pct,ci_low,ci_high
+In-hospital no involvement (Z<2),26,1618,1.61,1.1,2.34
+In-hospital dilation only (Z 2–<2.5),7,84,8.33,4.1,16.22
+<6 mo,3,102,2.94,1.01,8.29
+6–11 mo,7,198,3.54,1.72,7.12
+12–23 mo,9,381,2.36,1.25,4.43
+2–4 y,10,649,1.54,0.84,2.81
+≥5 y,4,372,1.08,0.42,2.73
+Female,7,638,1.1,0.53,2.25
+Male,26,1064,2.44,1.67,3.56
+IVIG-responsive,21,1510,1.39,0.91,2.12
+IVIG-resistant,12,192,6.25,3.61,10.61
+Discharge CRP ≤20 mg/L,20,1017,1.97,1.28,3.02
+Discharge CRP >20 mg/L,13,685,1.9,1.11,3.22
+Discharge WBC ≤12,20,1477,1.35,0.88,2.08
+Discharge WBC >12,13,225,5.78,3.41,9.63
+1 in-hospital echo,15,1142,1.31,0.8,2.16
+≥2 in-hospital echoes,18,560,3.21,2.04,5.02
+Complete KD,31,1493,2.08,1.47,2.93
+Incomplete KD,2,209,0.96,0.26,3.42
+Not readmitted,25,1616,1.55,1.05,2.27
+Readmitted ≤30 d,8,86,9.3,4.79,17.3
+Index admission 2018–2020,13,719,1.81,1.06,3.07
+Index admission 2022–2024,20,983,2.03,1.32,3.12
+0 factors,5,632,0.79,0.34,1.84
+1 factor,13,774,1.68,0.98,2.85
+≥2 factors,15,296,5.07,3.09,8.19

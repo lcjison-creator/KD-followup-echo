@@ -1,0 +1,4 @@
+group,n,reimaged_90d,reimaged_365d,median_days_to_next_echo,inpatient_admission_365d,inpatient_antithrombotic_order_365d,inpatient_order_beyond_aspirin_365d,outpatient_note_90d_available,note_mentions_antithrombotic,note_mentions_beyond_aspirin,note_mentions_aneurysm
+Aneurysm first documented after discharge (C1),45,37/45,31/37,15.5,5/37,6/37,5/37,26/27,26/26,20/26,6/26
+… found at the first ≤30-d echo after an uncomplicated course,26,22/26,19/22,14.0,2/22,3/22,2/22,12/13,12/12,9/12,2/12
+Comparator: small in-hospital aneurysm (time 0 = discharge),280,206/276,164/223,7.0,23/223,24/223,14/223,161/209,152/161,74/161,12/161

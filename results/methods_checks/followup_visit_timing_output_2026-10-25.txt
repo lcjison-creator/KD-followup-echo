@@ -1,0 +1,29 @@
+uncomplicated children: 2839; illness day at discharge (children with a 1-30-day echo, n = 1253): median 10 (IQR 9-12)
+post-discharge echocardiograms (child-days): 5879 in 1894 children
+
+ post-discharge echo  children days after discharge, median (IQR) illness day, median (IQR)  illness day known
+                   1      1894                           8 (7-12)                18 (16-22)               1253
+                   2      1414                         47 (36-72)                54 (45-75)                990
+                   3      1003                       133 (71-212)              136 (80-193)                721
+                   4       682                      306 (158-494)             287 (167-438)                501
+                   5       376                      392 (275-754)             381 (267-743)                274
+
+All post-discharge echocardiograms by days after discharge:
+d_dis
+(0, 7]           793
+(7, 14]          727
+(14, 21]         152
+(21, 28]         149
+(28, 42]         544
+(42, 56]         374
+(56, 70]         339
+(70, 98]         365
+(98, 120]        129
+(120, 150]       226
+(150, 180]       236
+(180, 240]       258
+(240, 300]       133
+(300, 365]       265
+(365, 450]       208
+(450, 730]       341
+(730, 100000]    640

@@ -1,0 +1,446 @@
+{
+ "era_end": "2025-02-28",
+ "primary": {
+  "scope": "primary",
+  "C1_n": 3400,
+  "inhosp_cat": {
+   "None": 2839,
+   "Dilation only": 129,
+   "Small": 280,
+   "Medium": 97,
+   "Large/giant": 55
+  },
+  "inhosp_aneurysm": {
+   "events": 432,
+   "n": 3400,
+   "pct": 12.71,
+   "ci_low": 11.63,
+   "ci_high": 13.87
+  },
+  "aneurysm_before_index_only": 0,
+  "aneurysm_ever": 477,
+  "aneurysm_first_after_discharge": 45,
+  "aneurysm_first_after_discharge_by_inhosp": {
+   "None": 37,
+   "Dilation only": 8
+  },
+  "aneurysm_first_after_discharge_by_window": {
+   "W1 1–30 d": 37,
+   "W2 31–90 d": 2,
+   "W3 91–365 d": 2,
+   "W4 >365 d": 4
+  },
+  "followed_n": 2319,
+  "uncomplicated_n": 2839,
+  "surv_n": 1618,
+  "no_echo_30d": 1221,
+  "dilation_only_first_echo_aneurysm": {
+   "events": 7,
+   "n": 84,
+   "pct": 8.33,
+   "ci_low": 4.1,
+   "ci_high": 16.22
+  },
+  "dilation_only_first_echo_normal": {
+   "events": 63,
+   "n": 84,
+   "pct": 75.0,
+   "ci_low": 64.79,
+   "ci_high": 83.03
+  }
+ },
+ "all": {
+  "scope": "all",
+  "C1_n": 4593,
+  "inhosp_cat": {
+   "None": 3827,
+   "Dilation only": 166,
+   "Small": 397,
+   "Medium": 122,
+   "Large/giant": 81
+  },
+  "inhosp_aneurysm": {
+   "events": 600,
+   "n": 4593,
+   "pct": 13.06,
+   "ci_low": 12.12,
+   "ci_high": 14.07
+  },
+  "aneurysm_before_index_only": 1,
+  "aneurysm_ever": 655,
+  "aneurysm_first_after_discharge": 54,
+  "aneurysm_first_after_discharge_by_inhosp": {
+   "None": 44,
+   "Dilation only": 10
+  },
+  "aneurysm_first_after_discharge_by_window": {
+   "W1 1–30 d": 45,
+   "W2 31–90 d": 2,
+   "W3 91–365 d": 3,
+   "W4 >365 d": 4
+  },
+  "followed_n": 3199,
+  "uncomplicated_n": 3827,
+  "surv_n": 2293,
+  "no_echo_30d": 1534,
+  "dilation_only_first_echo_aneurysm": {
+   "events": 9,
+   "n": 108,
+   "pct": 8.33,
+   "ci_low": 4.45,
+   "ci_high": 15.08
+  },
+  "dilation_only_first_echo_normal": {
+   "events": 80,
+   "n": 108,
+   "pct": 74.07,
+   "ci_low": 65.08,
+   "ci_high": 81.41
+  }
+ },
+ "firth_model": [
+  {
+   "variable": "In-hospital dilation only (Z 2–<2.5)",
+   "n_with": 84,
+   "events_with": 7,
+   "events_without": 26,
+   "OR": 4.5999890461418,
+   "CI_low": 1.9044490492662174,
+   "CI_high": 11.110772027625222,
+   "p": 0.0006944401874908745,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "Age <12 months",
+   "n_with": 294,
+   "events_with": 10,
+   "events_without": 23,
+   "OR": 2.0873982413954892,
+   "CI_low": 0.995619352364236,
+   "CI_high": 4.376402897185688,
+   "p": 0.051369921929922846,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "Male sex",
+   "n_with": 1064,
+   "events_with": 26,
+   "events_without": 7,
+   "OR": 2.4622677524979135,
+   "CI_low": 1.0887933157193994,
+   "CI_high": 5.568331838063566,
+   "p": 0.030438902066575402,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "IVIG resistance",
+   "n_with": 192,
+   "events_with": 12,
+   "events_without": 21,
+   "OR": 2.659148643294542,
+   "CI_low": 1.1843919612351912,
+   "CI_high": 5.970212344029126,
+   "p": 0.017782641744502836,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "Discharge CRP >20 mg/L",
+   "n_with": 685,
+   "events_with": 13,
+   "events_without": 20,
+   "OR": 1.154832991938264,
+   "CI_low": 0.5767738830613746,
+   "CI_high": 2.3122392993775174,
+   "p": 0.6844426953748899,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "Discharge WBC >12 ×10⁹/L",
+   "n_with": 225,
+   "events_with": 13,
+   "events_without": 20,
+   "OR": 3.0451355382758156,
+   "CI_low": 1.43062498458191,
+   "CI_high": 6.481677970401352,
+   "p": 0.003863061710575044,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  },
+  {
+   "variable": "≥2 in-hospital echoes",
+   "n_with": 560,
+   "events_with": 18,
+   "events_without": 15,
+   "OR": 1.4747737931718554,
+   "CI_low": 0.7012147169691865,
+   "CI_high": 3.1017000761580946,
+   "p": 0.30572055169612256,
+   "model": "multivariable",
+   "population": "Z<2.5 in hospital",
+   "outcome": "aneurysm (Z≥2.5)",
+   "n": 1702,
+   "events": 33
+  }
+ ],
+ "fate": {
+  "n": 26,
+  "with_later_echo": 24,
+  "last_below_2_5": 20,
+  "later_max_medium_plus": 5,
+  "category_at_detection": {
+   "Small": 15,
+   "Medium": 10,
+   "Large/giant": 1
+  },
+  "exact_evidence_at_detection": 24
+ },
+ "planB": [
+  {
+   "scope": "primary",
+   "estimate": "In-hospital aneurysm (Z ≥ 2.5), % of cohort C1",
+   "value": 12.71,
+   "ci_low": 11.63,
+   "ci_high": 13.87,
+   "n": 3400,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Aneurysm at the first echo ≤30 d after an uncomplicated course, %",
+   "value": 1.61,
+   "ci_low": 1.1,
+   "ci_high": 2.34,
+   "n": 1618,
+   "note": "probability-weighted events 38.0"
+  },
+  {
+   "scope": "primary",
+   "estimate": "Any involvement at the first echo ≤30 d after an uncomplicated course, %",
+   "value": 2.16,
+   "ci_low": 1.56,
+   "ci_high": 2.99,
+   "n": 1618,
+   "note": "probability-weighted events 116.0"
+  },
+  {
+   "scope": "primary",
+   "estimate": "Any involvement at 31–90 d after two normal windows, %",
+   "value": 0.49,
+   "ci_low": 0.21,
+   "ci_high": 1.13,
+   "n": 1028,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Aneurysm at the first echo ≤30 d after in-hospital dilation only, %",
+   "value": 8.33,
+   "ci_low": 4.1,
+   "ci_high": 16.22,
+   "n": 84,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Aneurysms first documented after discharge, % of all aneurysms",
+   "value": 9.43,
+   "ci_low": 7.13,
+   "ci_high": 12.39,
+   "n": 477,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Regression below Z 2.5 by 1 year, small aneurysm, %",
+   "value": 89.52,
+   "ci_low": 84.56,
+   "ci_high": 93.43,
+   "n": 218,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Regression below Z 2.5 by 1 year, medium aneurysm, %",
+   "value": 53.05,
+   "ci_low": 41.11,
+   "ci_high": 66.02,
+   "n": 76,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Regression below Z 2.5 by 1 year, large/giant aneurysm, %",
+   "value": 16.72,
+   "ci_low": 7.76,
+   "ci_high": 33.9,
+   "n": 47,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Progression to a larger category by 1 year, small aneurysm, %",
+   "value": 8.53,
+   "ci_low": 5.37,
+   "ci_high": 13.43,
+   "n": 218,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "Progression to a larger category by 1 year, medium aneurysm, %",
+   "value": 17.72,
+   "ci_low": 10.24,
+   "ci_high": 29.67,
+   "n": 76,
+   "note": ""
+  },
+  {
+   "scope": "primary",
+   "estimate": "New aneurysm by 1 year after an uncomplicated course (cumulative incidence), %",
+   "value": 2.13,
+   "ci_low": 1.49,
+   "ci_high": 3.06,
+   "n": 1885,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "In-hospital aneurysm (Z ≥ 2.5), % of cohort C1",
+   "value": 13.06,
+   "ci_low": 12.12,
+   "ci_high": 14.07,
+   "n": 4593,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Aneurysm at the first echo ≤30 d after an uncomplicated course, %",
+   "value": 1.4,
+   "ci_low": 0.99,
+   "ci_high": 1.96,
+   "n": 2293,
+   "note": "probability-weighted events 56.8"
+  },
+  {
+   "scope": "all",
+   "estimate": "Any involvement at the first echo ≤30 d after an uncomplicated course, %",
+   "value": 1.92,
+   "ci_low": 1.43,
+   "ci_high": 2.57,
+   "n": 2293,
+   "note": "probability-weighted events 208.2"
+  },
+  {
+   "scope": "all",
+   "estimate": "Any involvement at 31–90 d after two normal windows, %",
+   "value": 0.4,
+   "ci_low": 0.19,
+   "ci_high": 0.88,
+   "n": 1484,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Aneurysm at the first echo ≤30 d after in-hospital dilation only, %",
+   "value": 8.33,
+   "ci_low": 4.45,
+   "ci_high": 15.08,
+   "n": 108,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Aneurysms first documented after discharge, % of all aneurysms",
+   "value": 8.24,
+   "ci_low": 6.37,
+   "ci_high": 10.6,
+   "n": 655,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Regression below Z 2.5 by 1 year, small aneurysm, %",
+   "value": 89.91,
+   "ci_low": 85.79,
+   "ci_high": 93.25,
+   "n": 305,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Regression below Z 2.5 by 1 year, medium aneurysm, %",
+   "value": 56.38,
+   "ci_low": 45.92,
+   "ci_high": 67.36,
+   "n": 97,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Regression below Z 2.5 by 1 year, large/giant aneurysm, %",
+   "value": 16.12,
+   "ci_low": 8.65,
+   "ci_high": 28.91,
+   "n": 66,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Progression to a larger category by 1 year, small aneurysm, %",
+   "value": 7.73,
+   "ci_low": 5.15,
+   "ci_high": 11.54,
+   "n": 305,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "Progression to a larger category by 1 year, medium aneurysm, %",
+   "value": 19.08,
+   "ci_low": 12.21,
+   "ci_high": 29.12,
+   "n": 97,
+   "note": ""
+  },
+  {
+   "scope": "all",
+   "estimate": "New aneurysm by 1 year after an uncomplicated course (cumulative incidence), %",
+   "value": 1.92,
+   "ci_low": 1.37,
+   "ci_high": 2.68,
+   "n": 2610,
+   "note": ""
+  }
+ ],
+ "master": {
+  "overlap": 3066,
+  "ivig_res_n": 3066,
+  "ivig_res_agreement_pct": 96.2,
+  "ivig_res_kappa": 0.842,
+  "fever_days_n": 2339,
+  "fever_days_exact_pct": 98.5
+ }
+}

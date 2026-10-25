@@ -1,0 +1,389 @@
+{
+ "plan_sha256": "8d6b811b2d42ac80cdc4438b7adbeb9623e39ff962899e710c72c0c6f482065f",
+ "export_sha256": "3c058add9dcb1ed49357bdd0fdab04e0da699482008936df88ee96b4eba71856",
+ "export_window": [
+  "2025-03-08",
+  "2026-09-23"
+ ],
+ "addendum": {
+  "KD_echo_measure_2025_2026_v1.parquet": {
+   "rows": 7213,
+   "sha256": "f73c170308eaacf36cae5b3a168c7b5da2adb5cc06fbc89cc048285370e622ad"
+  },
+  "KD_echo_reports_combined_v5.parquet": {
+   "rows": 7212,
+   "sha256": "e7a568acdf97188a45fd6ec5da2f460b9acf6129332eab5e83b3d589bc4d53d2"
+  },
+  "KD_echo_measure_2025_2026_v1.csv": {
+   "rows": 7213,
+   "sha256": "1fba9892b6883c7ea9308ae43e5877daa69a0a4eb4e9248f15f77cf5101042ab"
+  },
+  "KD_echo_reports_combined_v5.csv": {
+   "rows": 7212,
+   "sha256": "41319896db84e0c70a85545bb5b422c4f6ee8c52cd8c6165177e3209dea886e9"
+  }
+ },
+ "v4_reference": {
+  "P1": {
+   "events": 26,
+   "n": 1618
+  },
+  "S1": {
+   "events": 35,
+   "n": 1618
+  },
+  "S2": {
+   "events": 11,
+   "n": 1618
+  },
+  "S4_aneurysm": {
+   "events": 1,
+   "n": 1028
+  },
+  "S4_involvement": {
+   "events": 5,
+   "n": 1028
+  }
+ },
+ "cohort": {
+  "candidates": 1103,
+  "V": 1101,
+  "by_year": {
+   "2025": 587,
+   "2026": 514
+  },
+  "inhospital_max": {
+   "none": 915,
+   "dilation only": 36,
+   "small": 107,
+   "medium": 29,
+   "large/giant": 14
+  },
+  "uncomplicated": 915,
+  "complete_30d": 860,
+  "Q1": 615,
+  "W2": 374,
+  "W3": 117
+ },
+ "comparisons": {
+  "P1": {
+   "prespecified_comparison": true,
+   "endpoint": "P1 aneurysm at the first echocardiogram 1-30 d",
+   "v5_events": 6,
+   "v5_n": 615,
+   "v5_pct": 0.98,
+   "v5_ci_low": 0.45,
+   "v5_ci_high": 2.11,
+   "v4_events": 26,
+   "v4_n": 1618,
+   "v4_pct": 1.61,
+   "v4_ci_low": 1.1,
+   "v4_ci_high": 2.34,
+   "diff_pp": -0.63,
+   "diff_ci_low": -1.54,
+   "diff_ci_high": 0.61,
+   "predictive_P": 0.3329,
+   "reading": "replicated",
+   "pooled_events": 32,
+   "pooled_n": 2233,
+   "pooled_pct": 1.43,
+   "pooled_ci_low": 1.02,
+   "pooled_ci_high": 2.02,
+   "expected_v5_events_under_v4": 10.07
+  },
+  "S1": {
+   "prespecified_comparison": true,
+   "endpoint": "S1 any involvement at the first echocardiogram 1-30 d",
+   "v5_events": 11,
+   "v5_n": 615,
+   "v5_pct": 1.79,
+   "v5_ci_low": 1.0,
+   "v5_ci_high": 3.17,
+   "v4_events": 35,
+   "v4_n": 1618,
+   "v4_pct": 2.16,
+   "v4_ci_low": 1.56,
+   "v4_ci_high": 2.99,
+   "diff_pp": -0.37,
+   "diff_ci_low": -1.52,
+   "diff_ci_high": 1.14,
+   "predictive_P": 0.6796,
+   "reading": "replicated",
+   "pooled_events": 46,
+   "pooled_n": 2233,
+   "pooled_pct": 2.06,
+   "pooled_ci_low": 1.55,
+   "pooled_ci_high": 2.74,
+   "expected_v5_events_under_v4": 13.49
+  },
+  "S2": {
+   "prespecified_comparison": true,
+   "endpoint": "S2 medium or larger at the first echocardiogram 1-30 d",
+   "v5_events": 0,
+   "v5_n": 615,
+   "v5_pct": 0.0,
+   "v5_ci_low": 0.0,
+   "v5_ci_high": 0.62,
+   "v4_events": 11,
+   "v4_n": 1618,
+   "v4_pct": 0.68,
+   "v4_ci_low": 0.38,
+   "v4_ci_high": 1.21,
+   "diff_pp": -0.68,
+   "diff_ci_low": -1.21,
+   "diff_ci_high": 0.01,
+   "predictive_P": 0.0487,
+   "reading": "not replicated",
+   "pooled_events": 11,
+   "pooled_n": 2233,
+   "pooled_pct": 0.49,
+   "pooled_ci_low": 0.28,
+   "pooled_ci_high": 0.88,
+   "expected_v5_events_under_v4": 4.37
+  },
+  "S4_aneurysm": {
+   "prespecified_comparison": true,
+   "endpoint": "S4 aneurysm at 31-90 d after normal 1-30-d echocardiograms",
+   "v5_events": 0,
+   "v5_n": 374,
+   "v5_pct": 0.0,
+   "v5_ci_low": 0.0,
+   "v5_ci_high": 1.02,
+   "v4_events": 1,
+   "v4_n": 1028,
+   "v4_pct": 0.1,
+   "v4_ci_low": 0.02,
+   "v4_ci_high": 0.55,
+   "diff_pp": -0.1,
+   "diff_ci_low": -0.55,
+   "diff_ci_high": 0.92,
+   "predictive_P": 1.0,
+   "reading": "replicated",
+   "pooled_events": 1,
+   "pooled_n": 1402,
+   "pooled_pct": 0.07,
+   "pooled_ci_low": 0.01,
+   "pooled_ci_high": 0.4,
+   "expected_v5_events_under_v4": 0.55
+  },
+  "S4_involvement": {
+   "prespecified_comparison": false,
+   "endpoint": "S4 any involvement at 31-90 d after normal 1-30-d echocardiograms (comparison not pre-specified)",
+   "v5_events": 2,
+   "v5_n": 374,
+   "v5_pct": 0.53,
+   "v5_ci_low": 0.15,
+   "v5_ci_high": 1.93,
+   "v4_events": 5,
+   "v4_n": 1028,
+   "v4_pct": 0.49,
+   "v4_ci_low": 0.21,
+   "v4_ci_high": 1.13,
+   "diff_pp": 0.05,
+   "diff_ci_low": -0.71,
+   "diff_ci_high": 1.47,
+   "predictive_P": 1.0,
+   "reading": "replicated",
+   "pooled_events": 7,
+   "pooled_n": 1402,
+   "pooled_pct": 0.5,
+   "pooled_ci_low": 0.24,
+   "pooled_ci_high": 1.03,
+   "expected_v5_events_under_v4": 2.0
+  }
+ },
+ "S3": {
+  "events": 6,
+  "n": 615,
+  "pct": 0.98,
+  "ci_low": 0.45,
+  "ci_high": 2.11
+ },
+ "S5": {
+  "aneurysm": {
+   "events": 0,
+   "n": 117,
+   "pct": 0.0,
+   "ci_low": 0.0,
+   "ci_high": 3.18
+  },
+  "involvement": {
+   "events": 0,
+   "n": 117,
+   "pct": 0.0,
+   "ci_low": 0.0,
+   "ci_high": 3.18
+  }
+ },
+ "S6": {
+  "confirmed": 6,
+  "not confirmed": 0,
+  "not re-imaged": 0,
+  "size": {
+   "small": 6
+  },
+  "days_to_next": [
+   10,
+   3,
+   3,
+   2,
+   2,
+   6
+  ]
+ },
+ "S7": {
+  "children": 636,
+  "aneurysms": 8,
+  "echoes_if_ge1": 322,
+  "echoes_avoided_pct": 49.4,
+  "detected": 8,
+  "missed": 0,
+  "missed_sizes": {},
+  "by_count": {
+   "0": "0/314",
+   "1": "5/224",
+   "2": "3/98"
+  },
+  "sensitivity": {
+   "events": 8,
+   "n": 8,
+   "pct": 100.0,
+   "ci_low": 67.56,
+   "ci_high": 100.0
+  }
+ },
+ "S8": [
+  {
+   "scope": "locked v4 scope (echocardiograms to 2025-02-28)",
+   "W3": "0/609",
+   "W3_involvement": "2/609",
+   "W4": "0/221",
+   "W4_involvement": "0/221",
+   "W3_ci": "0.00–0.63",
+   "W4_ci": "0.00–1.71"
+  },
+  {
+   "scope": "extended to the end of the structured export",
+   "W3": "0/654",
+   "W3_involvement": "3/654",
+   "W4": "0/328",
+   "W4_involvement": "1/328",
+   "W3_ci": "0.00–0.58",
+   "W4_ci": "0.00–1.16"
+  }
+ ],
+ "sensitivity": [
+  {
+   "analysis": "Primary: combined rule",
+   "events": 6,
+   "n": 615,
+   "pct": 0.98,
+   "ci_low": 0.45,
+   "ci_high": 2.11,
+   "predictive_P": 0.3329
+  },
+  {
+   "analysis": "(a) without the wording override",
+   "events": 5,
+   "n": 615,
+   "pct": 0.81,
+   "ci_low": 0.35,
+   "ci_high": 1.89,
+   "predictive_P": 0.1936
+  },
+  {
+   "analysis": "(b) v4 report categories (wording model in this period)",
+   "events": 6,
+   "n": 606,
+   "pct": 0.99,
+   "ci_low": 0.45,
+   "ci_high": 2.14,
+   "predictive_P": 0.3517
+  }
+ ],
+ "additional": {
+  "confirmed_yield_v5": {
+   "events": 6,
+   "n": 615,
+   "pct": 0.98,
+   "ci_low": 0.45,
+   "ci_high": 2.11
+  },
+  "confirmed_yield_v41": {
+   "events": 13,
+   "n": 1618,
+   "pct": 0.8,
+   "ci_low": 0.47,
+   "ci_high": 1.37
+  },
+  "confirmed_among_reimaged_v5": {
+   "events": 6,
+   "n": 6,
+   "pct": 100.0,
+   "ci_low": 60.97,
+   "ci_high": 100.0
+  },
+  "confirmed_among_reimaged_v41": {
+   "events": 13,
+   "n": 22,
+   "pct": 59.09,
+   "ci_low": 38.73,
+   "ci_high": 76.74
+  },
+  "not_reimaged_v5": 0,
+  "not_reimaged_v41": 4,
+  "fisher_P_confirmed_among_reimaged_posthoc": 0.1358,
+  "first_echo_day_v5": {
+   "median": 7.0,
+   "q1": 6.0,
+   "q3": 9.0
+  },
+  "first_echo_day_v4": {
+   "median": 8.0,
+   "q1": 7.0,
+   "q3": 9.0
+  },
+  "uptake_v5": {
+   "events": 615,
+   "n": 860,
+   "pct": 71.51,
+   "ci_low": 68.4,
+   "ci_high": 74.43
+  },
+  "uptake_v4": {
+   "events": 1618,
+   "n": 2839,
+   "pct": 56.99,
+   "ci_low": 55.16,
+   "ci_high": 58.8
+  },
+  "S3_v4": {
+   "events": 29,
+   "n": 1618,
+   "pct": 1.79,
+   "ci_low": 1.25,
+   "ci_high": 2.56
+  },
+  "override_reports_anywhere_vs_clause": [
+   24,
+   21
+  ],
+  "P1_override_clause_reading": {
+   "events": 5,
+   "n": 615,
+   "pct": 0.81,
+   "ci_low": 0.35,
+   "ci_high": 1.89,
+   "predictive_P": 0.1936
+  },
+  "S2_zero_events_min_n_for_P_below_0.05": 610,
+  "S2_rule_b": {
+   "events": 0,
+   "n": 606,
+   "pct": 0.0,
+   "ci_low": 0.0,
+   "ci_high": 0.63,
+   "predictive_P": 0.051
+  }
+ }
+}

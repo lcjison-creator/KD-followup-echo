@@ -1,0 +1,23 @@
+# Patient-level data never goes to GitHub (pseudonymized research-ID tables, hospital exports, research kit)
+**/frozen_patient_level/*
+!**/frozen_patient_level/README.md
+*.parquet
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.sav
+*.dta
+key_numbers.json
+cohort_C1_primary.csv
+KD_ResearchKit_v1*/
+KD_Infant_Master*
+uploads/
+
+# Generated when the notebooks are run locally
+output_kd_*/
+*.tiff
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db

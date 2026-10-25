@@ -1,0 +1,45 @@
+scope,illness_day,children,involvement_pct,aneurysm_pct,medium_plus_pct,population
+primary,1–7,1645,11.06,7.6,0.85,Cohort C1
+primary,8–10,1090,19.08,12.84,3.21,Cohort C1
+primary,11–14,623,23.92,19.1,7.38,Cohort C1
+primary,15–21,1113,14.47,11.41,5.48,Cohort C1
+primary,22–28,360,20.28,17.78,10.83,Cohort C1
+primary,29–42,384,21.61,18.75,8.85,Cohort C1
+primary,43–60,670,9.85,7.61,3.73,Cohort C1
+primary,61–90,659,9.71,8.5,4.86,Cohort C1
+primary,91–180,659,8.5,6.07,3.64,Cohort C1
+primary,181–365,518,7.14,6.18,3.47,Cohort C1
+primary,>365,525,6.1,4.95,3.24,Cohort C1
+all,1–7,2388,11.31,8.0,0.88,Cohort C1
+all,8–10,1621,18.01,12.71,2.78,Cohort C1
+all,11–14,923,23.19,19.07,7.69,Cohort C1
+all,15–21,1595,13.98,11.29,5.27,Cohort C1
+all,22–28,481,21.41,18.92,10.81,Cohort C1
+all,29–42,561,21.93,18.36,8.73,Cohort C1
+all,43–60,978,9.3,7.26,3.48,Cohort C1
+all,61–90,901,10.21,8.44,4.66,Cohort C1
+all,91–180,937,8.64,6.4,3.42,Cohort C1
+all,181–365,781,7.3,6.66,3.59,Cohort C1
+all,>365,760,7.37,6.05,3.16,Cohort C1
+primary,1–7,1421,0.0,0.0,,Uncomplicated in hospital (Z<2)
+primary,8–10,852,0.0,0.0,,Uncomplicated in hospital (Z<2)
+primary,11–14,432,0.46,0.46,,Uncomplicated in hospital (Z<2)
+primary,15–21,902,2.66,2.11,,Uncomplicated in hospital (Z<2)
+primary,22–28,266,4.51,3.38,,Uncomplicated in hospital (Z<2)
+primary,29–42,274,4.38,3.65,,Uncomplicated in hospital (Z<2)
+primary,43–60,526,1.14,0.57,,Uncomplicated in hospital (Z<2)
+primary,61–90,522,2.11,1.72,,Uncomplicated in hospital (Z<2)
+primary,91–180,509,2.16,0.98,,Uncomplicated in hospital (Z<2)
+primary,181–365,408,1.23,0.98,,Uncomplicated in hospital (Z<2)
+primary,>365,424,1.18,0.94,,Uncomplicated in hospital (Z<2)
+all,1–7,2053,0.0,0.0,,Uncomplicated in hospital (Z<2)
+all,8–10,1272,0.08,0.08,,Uncomplicated in hospital (Z<2)
+all,11–14,655,0.46,0.46,,Uncomplicated in hospital (Z<2)
+all,15–21,1283,2.1,1.64,,Uncomplicated in hospital (Z<2)
+all,22–28,349,4.3,3.15,,Uncomplicated in hospital (Z<2)
+all,29–42,386,3.63,2.85,,Uncomplicated in hospital (Z<2)
+all,43–60,777,0.9,0.51,,Uncomplicated in hospital (Z<2)
+all,61–90,699,1.57,1.29,,Uncomplicated in hospital (Z<2)
+all,91–180,712,1.54,0.7,,Uncomplicated in hospital (Z<2)
+all,181–365,607,0.82,0.66,,Uncomplicated in hospital (Z<2)
+all,>365,592,1.35,1.01,,Uncomplicated in hospital (Z<2)

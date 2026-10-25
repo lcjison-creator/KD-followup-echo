@@ -1,0 +1,14 @@
+﻿Check,Sample,Result
+Blinded extraction audit: all seven numeric fields agree,Development sample (200 reports),First reading 186/200 (93.0%); after the corrections it prompted 195/200 (97.5%)
+,Validation sample (150 reports),First reading 148/150 (98.7%); after the corrections it prompted 149/150 (99.3%)
+,Final check (100 reports),First reading 95/100 (95.0%); after the corrections it prompted 99/100 (99.0%)
+Measurements from linked records (tier 3),Same-date linkage (429 reports with their own numbers),Exact category agreement 97.9%; aneurysm agreement 99.3%
+,Linkage within 7 days (487 reports),Exact category agreement 98.6%; aneurysm agreement 99.8%
+"Wording model (tier 4), cross-validated by child","All reports with a numeric category (n = 7,453)",Accuracy 83.7%; weighted κ 0.871; AUC for aneurysm 0.990; aneurysm yes/no accuracy 97.7%
+,"Reports worded dilation or aneurysm (n = 2,884)",Accuracy 65.3%; weighted κ 0.586; AUC for aneurysm 0.853; aneurysm yes/no accuracy 96.0%
+,"Reports worded normal (n = 4,569)",Accuracy 95.3%; weighted κ 0.752; aneurysm yes/no accuracy 98.8%
+,Wording category alone (benchmark),Accuracy 78.0%; weighted κ 0.817; AUC for aneurysm 0.978
+,"Temporal: trained to 2022, tested from 2023 (n = 2,803)",Accuracy 76.7%; weighted κ 0.835; AUC for aneurysm 0.986; aneurysm yes/no accuracy 97.1%
+"Reports by evidence tier (all 30,003 reports)",Tier 1 written Z / tier 2 computed Z / tier 3 linked / tier 4 wording / none,"4,176 / 3,277 / 44 / 21,830 / 676"
+Exact evidence among reports worded dilation or aneurysm,2018–2024 (by year),96.3–100.0%
+,2025 / 2026,42.3% / 20.1%

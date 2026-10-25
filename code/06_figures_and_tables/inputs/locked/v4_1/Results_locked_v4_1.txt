@@ -1,0 +1,130 @@
+RESULTS LOCK — v4.1 (v4 sections unchanged; 2026-09-30) — KD serial-echo surveillance under AHA 2017 coronary categories, Wuhan Children's Hospital
+Computed by KD_echo_surveillance_v4.ipynb from 川崎病重新导出30天_1/2/3.xlsx (data end 2026-09-28) and the per-report AHA categories of KD_coronary_AHA_v1.ipynb. Every number is computed.
+
+R0. Definitions and cohort
+- AHA 2017 category per report: none Z<2; dilation only 2–<2.5; small 2.5–<5; medium 5–<10; large/giant ≥10 or ≥8 mm. Involvement = ≥ dilation only; aneurysm = ≥ small.
+- Numeric era ends 2025-02-28 (first month with <90% of dilation/aneurysm-worded reports carrying numbers: 2025-03). Primary scope = index admissions 2018–2024 (2021 excluded) with echoes to 2025-02-28; within it 13 of 1861 dilation/aneurysm-worded reports rely on the wording model.
+- Cohort C1 (≥1 classifiable in-hospital echo): n = 3,400. In-hospital maximum: None 2,839 (83.5%), Dilation only 129 (3.8%), Small 280 (8.2%), Medium 97 (2.9%), Large/giant 55 (1.6%); aneurysm 432 (12.7%; 95% CI 11.6–13.9).
+- In-hospital wording 'dilation' (n = 389) → AHA: None 9, Dilation only 16, Small 266, Medium 82, Large/giant 16; wording 'aneurysm' (n = 60) → None 0, Dilation only 0, Small 6, Medium 15, Large/giant 39.
+R1. Where coronary findings are first documented (C1, primary scope)
+- involvement: 614 children; first in hospital 561 (91.4%); after discharge W1 1–30 d 39, W2 31–90 d 6, W3 91–365 d 4, W4 >365 d 4.
+- aneurysm: 477 children; first in hospital 432 (90.6%); after discharge W1 1–30 d 37, W2 31–90 d 2, W3 91–365 d 2, W4 >365 d 4.
+- medium or larger: 189 children; first in hospital 153 (81.0%); after discharge W1 1–30 d 29, W2 31–90 d 3, W3 91–365 d 2, W4 >365 d 2.
+- Aneurysms first documented after discharge: 45 of 477 (9.4%); in-hospital category None 37, Dilation only 8; per 1,000 followed children: None 19.6 (95% CI 14.3–26.9; 37/1885); Dilation only 86.0 (95% CI 44.2–160.7; 8/93).
+- Higher category after discharge than the in-hospital maximum (followed children): None 53/1885; Dilation only 8/93; Small 17/218; Medium 12/76; Large/giant 0/47.
+R2. Sequential yields after an uncomplicated in-hospital course (Z < 2 on every in-hospital report)
+- Uncomplicated n = 2,839; with a first echo ≤30 d n = 1,618 (median day 8 after discharge [IQR 7–9], illness day 18 [16–22]); no echo ≤30 d n = 1,221 (Table S1).
+- First echo ≤30 d after an uncomplicated in-hospital course: aneurysm (Z≥2.5): 26/1,618 = 1.61% (95% CI 1.10–2.34); probability-weighted events 38.0.
+- … any involvement (Z≥2): 35/1,618 = 2.16% (95% CI 1.56–2.99); probability-weighted events 116.0.
+- … medium or larger (Z≥5): 11/1,618 = 0.68% (95% CI 0.38–1.21); probability-weighted events 12.7.
+- … aneurysm on any echo ≤30 d: 29/1,618 = 1.79% (95% CI 1.25–2.56).
+- 31–90 d after uncomplicated in-hospital + normal ≤30-d echoes: any involvement: 5/1,028 = 0.49% (95% CI 0.21–1.13).
+- … aneurysm: 1/1,028 = 0.10% (95% CI 0.02–0.55).
+- 91–365 d after normal findings at all three prior windows: any involvement: 2/609 = 0.33% (95% CI 0.09–1.19).
+- … aneurysm: 0/609 = 0.00% (95% CI 0.00–0.63).
+- >365 d after normal findings at all four prior windows: any involvement: 0/221 = 0.00% (95% CI 0.00–1.71).
+- … aneurysm: 0/221 = 0.00% (95% CI 0.00–1.71).
+- 31–90 d after an uncomplicated in-hospital course (with or without a ≤30-d echo): aneurysm: 12/1,204 = 1.00% (95% CI 0.57–1.73).
+- Aneurysms found at the first ≤30-d echo (n = 26): category {'Small': 15, 'Medium': 10, 'Large/giant': 1}; exact numeric evidence at detection 24; re-imaged after day 30 24, last report Z < 2.5 in 20, medium or larger at any later echo 5.
+R3. Who has an aneurysm at the first post-discharge echo (children discharged with Z < 2.5; Table 4, Figure 2)
+- n = 1,702, 33 aneurysms. In-hospital dilation only 7/84 (8.33%) vs Z < 2 26/1618 (1.61%).
+- IVIG-resistant 6.25% vs responsive 1.39%; discharge WBC >12 5.78% vs ≤12 1.35%; readmitted ≤30 d 9.30% vs 1.55%; age <6 mo 2.94%, ≥5 y 1.08%.
+- Risk-factor count (age <12 mo, IVIG resistance, in-hospital dilation only, discharge CRP >20 or WBC >12): 0 → 5/632 (0.79%); 1 → 13/774 (1.68%); ≥2 → 15/296 (5.07%).
+- Firth multivariable OR (95% CI): In-hospital dilation only (Z 2–<2.5) 4.60 (1.90–11.11); Age <12 months 2.09 (1.00–4.38); Male sex 2.46 (1.09–5.57); IVIG resistance 2.66 (1.18–5.97); Discharge CRP >20 mg/L 1.15 (0.58–2.31); Discharge WBC >12 ×10⁹/L 3.05 (1.43–6.48); ≥2 in-hospital echoes 1.47 (0.70–3.10).
+R4. Course of in-hospital aneurysms by size (Figure 3; time 0 = discharge; Kaplan–Meier)
+- Small (n = 218): below Z 2.5 by 90 d 79.0% (73.1–84.4), 1 y 89.5% (84.6–93.4), 2 y 90.5% (85.5–94.3); normal lumen (Z < 2) by 1 y 86.8% (81.3–91.4), 2 y 88.0% (82.4–92.5); median days to Z < 2.5 15.0.
+- Medium (n = 76): below Z 2.5 by 90 d 30.1% (20.8–42.4), 1 y 53.0% (41.1–66.0), 2 y 70.3% (56.9–82.6); normal lumen (Z < 2) by 1 y 45.7% (34.2–59.0), 2 y 57.9% (44.9–71.6); median days to Z < 2.5 325.0.
+- Large/giant (n = 47): below Z 2.5 by 90 d 4.7% (1.2–17.5), 1 y 16.7% (7.8–33.9), 2 y 16.7% (7.8–33.9); normal lumen (Z < 2) by 1 y 5.9% (1.5–22.1), 2 y 9.8% (3.2–28.1); median days to Z < 2.5 nan.
+- Log-rank across sizes: Z < 2.5 P < 0.001; Z < 2 P < 0.001.
+- Progression to a higher category by 1 y, in-hospital dilation only (n = 93): 9.2% (4.7–17.5).
+- Progression to a higher category by 1 y, in-hospital small (n = 218): 8.5% (5.4–13.4).
+- Progression to a higher category by 1 y, in-hospital medium (n = 76): 17.7% (10.2–29.7).
+- Progression of small/medium aneurysms by 1 y: IVIG-resistant 15.3% (8.8–26.1); IVIG-responsive 9.9% (6.1–15.7); log-rank P = 0.11.
+R5. New aneurysm after an uncomplicated course, cumulative incidence (Figure 4)
+- 30 d 1.7% (1.2–2.4); 90 d 1.8% (1.3–2.6); 365 d 2.1% (1.5–3.1); 730 d 2.4% (1.6–3.6) (n = 1,885, 34 events).
+- At 1 y by risk-factor count (age <12 mo, IVIG resistance, discharge CRP >20 or WBC >12): 0 factors 1.3% (0.7–2.7); 1 factor 2.0% (1.1–3.5); ≥2 factors 4.7% (2.5–8.6); log-rank P = 0.002. In-hospital dilation only vs Z < 2 at 1 y: Dilation only (Z 2–<2.5) 9.2% (4.7–17.5); None (Z<2) 2.1% (1.5–3.1); log-rank P < 0.001.
+R6. Timing (whole C1, children with a parsable fever onset; Figures 5–6)
+- First documented involvement (n = 440) by illness day 10 72.0%, 14 86.4%, 21 94.8%, 42 97.5%; aneurysm (n = 331) by day 10 66.5%, 14 83.7%, 21 94.6%, 42 98.2%, 90 98.8%.
+- Involvement by illness-day window (%; children with an echo): 1–7 11.1 (aneurysm 7.6; n = 1,645), 8–10 19.1 (aneurysm 12.8; n = 1,090), 11–14 23.9 (aneurysm 19.1; n = 623), 15–21 14.5 (aneurysm 11.4; n = 1,113), 22–28 20.3 (aneurysm 17.8; n = 360), 29–42 21.6 (aneurysm 18.8; n = 384), 43–60 9.8 (aneurysm 7.6; n = 670), 61–90 9.7 (aneurysm 8.5; n = 659), 91–180 8.5 (aneurysm 6.1; n = 659), 181–365 7.1 (aneurysm 6.2; n = 518), >365 6.1 (aneurysm 5.0; n = 525).
+R7. Plan B — primary vs all-data estimates (Table 7, Figure S2)
+- In-hospital aneurysm (Z ≥ 2.5), % of cohort C1: primary 12.71 (11.63–13.87; n = 3400) | all data 13.06 (12.12–14.07; n = 4593).
+- Aneurysm at the first echo ≤30 d after an uncomplicated course, %: primary 1.61 (1.10–2.34; n = 1618) | all data 1.40 (0.99–1.96; n = 2293).
+- Any involvement at the first echo ≤30 d after an uncomplicated course, %: primary 2.16 (1.56–2.99; n = 1618) | all data 1.92 (1.43–2.57; n = 2293).
+- Any involvement at 31–90 d after two normal windows, %: primary 0.49 (0.21–1.13; n = 1028) | all data 0.40 (0.19–0.88; n = 1484).
+- Aneurysm at the first echo ≤30 d after in-hospital dilation only, %: primary 8.33 (4.10–16.22; n = 84) | all data 8.33 (4.45–15.08; n = 108).
+- Aneurysms first documented after discharge, % of all aneurysms: primary 9.43 (7.13–12.39; n = 477) | all data 8.24 (6.37–10.60; n = 655).
+- Regression below Z 2.5 by 1 year, small aneurysm, %: primary 89.52 (84.56–93.43; n = 218) | all data 89.91 (85.79–93.25; n = 305).
+- Regression below Z 2.5 by 1 year, medium aneurysm, %: primary 53.05 (41.11–66.02; n = 76) | all data 56.38 (45.92–67.36; n = 97).
+- Regression below Z 2.5 by 1 year, large/giant aneurysm, %: primary 16.72 (7.76–33.90; n = 47) | all data 16.12 (8.65–28.91; n = 66).
+- Progression to a larger category by 1 year, small aneurysm, %: primary 8.53 (5.37–13.43; n = 218) | all data 7.73 (5.15–11.54; n = 305).
+- Progression to a larger category by 1 year, medium aneurysm, %: primary 17.72 (10.24–29.67; n = 76) | all data 19.08 (12.21–29.12; n = 97).
+- New aneurysm by 1 year after an uncomplicated course (cumulative incidence), %: primary 2.13 (1.49–3.06; n = 1885) | all data 1.92 (1.37–2.68; n = 2610).
+- Sensitivity analyses of the first-echo yield (Table S2): Primary 26/1618 (1.61%); S1 26/1678 (1.55%); S2 27/1739 (1.55%); S3 25/1511 (1.65%); S4 19/1534 (1.24%); S6a 13/709 (1.83%); S6b 13/909 (1.43%); S7a 19/921 (2.06%); S7b 0/440 (0.00%); S5 24/1618 (1.48%); Plan B sensitivity 32/2293 (1.40%).
+R8. Cross-check with the frozen master (reference only)
+- IVIG resistance (medication orders vs Target_IVIG_Res): agreement 96.2%, kappa 0.842 (n = 3,066); fever days at admission exact agreement 98.5% (n = 2,339).
+
+Caveats: (1) 2021 in-hospital reports missing; (2) from March 2025 the coronary measurements sit in an unexported table — the primary scope stops at the end of the numeric era and the all-data scope uses wording-model categories; (3) events are dated at the reporting echo (interval-censored in reality); time 0 = discharge, so regression partly reflects the timing of the first follow-up echo; (4) children without a ≤30-d echo in our system are not in the yield denominators (Table S1); (5) fever onset parsed for ~76%.
+
+MODULES OF v4.1 (analysis plan locked 2026-10-01 before module outcomes were examined; see the notebook header)
+M1a. 2021 sealed year — sensitivity analysis with the validated rule-based in-hospital baseline
+- 2021 index admissions 807; discharge record documents an echo 788; rule-uncomplicated with an echo 702; with a first echo ≤30 d 515; children with any in-hospital report in the export 25.
+- First echo ≤30 d, aneurysm (Z≥2.5): Primary 26/1,618 = 1.61% (95% CI 1.10–2.34); Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check) 30/1,647 = 1.82% (95% CI 1.28–2.59); Rule-based baseline, 2021 only 7/515 = 1.36% (95% CI 0.66–2.78); Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based) 33/2,133 = 1.55% (95% CI 1.10–2.16).
+- First echo ≤30 d, any involvement (Z≥2): Primary 35/1,618 = 2.16% (95% CI 1.56–2.99); Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check) 48/1,647 = 2.91% (95% CI 2.21–3.84); Rule-based baseline, 2021 only 11/515 = 2.14% (95% CI 1.20–3.78); Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based) 46/2,133 = 2.16% (95% CI 1.62–2.86).
+- First echo ≤30 d, medium or larger (Z≥5): Primary 11/1,618 = 0.68% (95% CI 0.38–1.21); Rule-based baseline, 2018–2024 without 2021 (cohort C1; agreement check) 11/1,647 = 0.67% (95% CI 0.37–1.19); Rule-based baseline, 2021 only 2/515 = 0.39% (95% CI 0.11–1.40); Pooled 2018–2024 including 2021 (AHA baseline + 2021 rule-based) 13/2,133 = 0.61% (95% CI 0.36–1.04).
+- New aneurysm by 1 y after an uncomplicated course: 2021 only 1.31% (0.63–2.74; n = 566, 7 events); pooled 2018–2024 including 2021 1.92% (1.39–2.65; n = 2,451, 41 events); primary 2.13% (1.49–3.06; n = 1,885, 34 events).
+M1b. Infants (cohort C1)
+- <6 mo: C1 n = 221; in-hospital aneurysm 67/221 (30.3%; 24.6–36.7); medium or larger 27/221 (12.2%; 8.5–17.2); aneurysms first documented after discharge 5/72 (6.9%; 3.0–15.2); aneurysm at the first ≤30-d echo after an uncomplicated course 1/92 (1.1%; 0.2–5.9); after Z < 2.5 in hospital 3/100 (3.0%; 1.0–8.5).
+- 6–11 mo: C1 n = 337; in-hospital aneurysm 45/337 (13.4%; 10.1–17.4); medium or larger 21/337 (6.2%; 4.1–9.3); aneurysms first documented after discharge 7/52 (13.5%; 6.7–25.3); aneurysm at the first ≤30-d echo after an uncomplicated course 7/184 (3.8%; 1.9–7.6); after Z < 2.5 in hospital 7/194 (3.6%; 1.8–7.3).
+- ≥12 mo: C1 n = 2842; in-hospital aneurysm 320/2842 (11.3%; 10.1–12.5); medium or larger 104/2842 (3.7%; 3.0–4.4); aneurysms first documented after discharge 33/353 (9.3%; 6.7–12.8); aneurysm at the first ≤30-d echo after an uncomplicated course 18/1342 (1.3%; 0.9–2.1); after Z < 2.5 in hospital 23/1408 (1.6%; 1.1–2.4).
+- <3 mo: C1 n = 59; in-hospital aneurysm 19/59 (32.2%; 21.7–44.9); medium or larger 7/59 (11.9%; 5.9–22.5); aneurysms first documented after discharge 1/20 (5.0%; 0.9–23.6); aneurysm at the first ≤30-d echo after an uncomplicated course 0/26 (0.0%; 0.0–12.9); after Z < 2.5 in hospital 0/27 (0.0%; 0.0–12.5).
+- Firth model, in-hospital aneurysm (n = 3,400, 432 events): Age <6 months (vs ≥12) OR 3.19 (2.33–4.38); Age 6–11 months (vs ≥12) OR 1.18 (0.84–1.66); Male sex OR 1.82 (1.44–2.30); IVIG resistance OR 2.53 (1.97–3.26).
+- Firth model, in-hospital medium or larger (n = 3,400, 152 events): Age <6 months (vs ≥12) OR 3.29 (2.09–5.18); Age 6–11 months (vs ≥12) OR 1.71 (1.05–2.77); Male sex OR 1.85 (1.26–2.72); IVIG resistance OR 3.01 (2.09–4.34).
+- New aneurysm by 1 y after an uncomplicated course: <12 mo 2.89% (1.51–5.49; n = 323, 9 events); ≥12 mo 1.99% (1.29–3.04; n = 1,562, 25 events); log-rank P = 0.17.
+- In-hospital aneurysm below Z 2.5 by 1 y: <12 mo 70.25% (60.17–79.74; n = 93, 68 events); ≥12 mo 71.31% (65.01–77.35; n = 248, 173 events); log-rank P = 0.49.
+M2a. Children without a ≤30-d echo in our system (uncomplicated in hospital)
+- Uncomplicated n = 2,839; first echo ≤30 d 1,618; none 1,221; propensity model c-statistic 0.632.
+- Aneurysm yield: observed 26/1,618 = 1.61% (95% CI 1.10–2.34); IPW 1.54% (bootstrap 95% CI 0.98–2.21); standardized to the risk-factor distribution 1.55% (1.00–2.19); lower bound 26/2,839 = 0.92% (95% CI 0.63–1.34); tipping point (aneurysm rate among children without an echo that doubles the overall rate) 5.34%.
+- Children without a ≤30-d echo who had an echo 31–365 d after discharge: 199; aneurysm at that echo 3/199 = 1.51% (95% CI 0.51–4.34).
+M2b. Measurement noise (maximal Z of consecutive exact-number reports; report dates carry no time of day, so set A = 1–3 calendar days apart)
+- A: index admission, ≤72 h apart: 287 pairs (220 children; median interval 3.0 d); mean difference 0.06, SD 2.529, within-subject SD 1.789, repeatability coefficient 4.954, limits -4.898 to 5.017; |difference| > 2 in 15.0%; post hoc robust (MAD) SD 0.964, within-subject SD 0.681, repeatability coefficient 1.888.
+- B: uncomplicated, >30 d after discharge, ≤180 d apart: 189 pairs (109 children; median interval 73.0 d); mean difference -0.34, SD 2.356, within-subject SD 1.666, repeatability coefficient 4.615, limits -4.958 to 4.277; |difference| > 2 in 9.5%; post hoc robust (MAD) SD 0.836, within-subject SD 0.591, repeatability coefficient 1.637.
+- Noise model (within-subject SD of set B (pre-specified); within-subject SD 1.666): children with an exact in-hospital Z 276, observed aneurysms at the first ≤30-d echo 8, expected from noise alone 36.94, P(≥ observed | noise only) 1.0.
+- Noise model (within-subject SD of set A (pre-specified sensitivity); within-subject SD 1.789): children with an exact in-hospital Z 276, observed aneurysms at the first ≤30-d echo 8, expected from noise alone 40.74, P(≥ observed | noise only) 1.0.
+- Noise model (post hoc: robust within-subject SD of set B; within-subject SD 0.591): children with an exact in-hospital Z 276, observed aneurysms at the first ≤30-d echo 8, expected from noise alone 4.66, P(≥ observed | noise only) 0.0891.
+- Noise model (post hoc: robust within-subject SD of set A; within-subject SD 0.681): children with an exact in-hospital Z 276, observed aneurysms at the first ≤30-d echo 8, expected from noise alone 6.68, P(≥ observed | noise only) 0.3495.
+- Primary (any first ≤30-d echo with Z ≥ 2.5): 26/1,618 = 1.61% (1.10–2.34).
+- (a) persistence: Z ≥ 2.5 again on the next echo ≤90 d later: 13/1,618 = 0.80% (0.47–1.37) (not confirmed 9, not re-imaged ≤90 d 4).
+- (a) upper: confirmed or not re-imaged ≤90 d: 17/1,618 = 1.05% (0.66–1.68).
+- (b) exact maximal Z ≥ 3.0 at detection: 18/1,618 = 1.11% (0.70–1.75).
+- (c) exact, increase over the exact in-hospital maximum ≥ repeatability coefficient (children with exact in-hospital Z): 1/276 = 0.36% (0.06–2.02).
+- (c) post hoc: as (c) with the robust repeatability coefficient: 8/276 = 2.90% (1.48–5.61).
+- Primary definition in the same subset (children with exact in-hospital Z): 8/276 = 2.90% (1.48–5.61).
+M3a. Exact in-hospital Z gradient below the aneurysm threshold (children discharged with Z < 2.5, exact in-hospital Z)
+- n = 358 of 1,702: Z <1 4/202 (1.98%; 0.77–4.98); Z 1–<1.5 3/38 (7.89%; 2.72–20.80); Z 1.5–<2 1/36 (2.78%; 0.49–14.17); Z 2–<2.5 7/82 (8.54%; 4.20–16.59); Cochran–Armitage trend P = 0.020.
+- Firth OR per 0.5 Z: crude 1.39 (1.06–1.84), P = 0.019; adjusted for age <12 mo and IVIG resistance 1.34 (1.02–1.76), P = 0.036.
+M3b. Risk-based surveillance strategies (children discharged with Z < 2.5 and a first echo ≤30 d: n = 1,702, 33 aneurysms; bootstrap 95% CIs)
+- S0 echo all: echoes 1,702 (avoided 0.0%, 0.0–0.0); detected 33, missed 0; sensitivity 100.0% (100.0–100.0); echoes per aneurysm detected 51.6 (38.7–74.0).
+- S1 echo if ≥1 risk factor: echoes 1,070 (avoided 37.1%, 34.8–39.4); detected 28, missed 5 {'Small': 3, 'Medium': 2}; sensitivity 84.8% (71.9–96.0); echoes per aneurysm detected 38.2 (27.9–57.8); echoes avoided per aneurysm missed 126.4 (64.6–608.4).
+- S2 echo if ≥2 risk factors: echoes 296 (avoided 82.6%, 80.7–84.4); detected 15, missed 18 {'Small': 14, 'Medium': 4}; sensitivity 45.5% (27.3–63.3); echoes per aneurysm detected 19.7 (13.4–37.6); echoes avoided per aneurysm missed 78.1 (53.1–138.9).
+- S3 echo if dilation only or IVIG resistance: echoes 261 (avoided 84.7%, 83.0–86.4); detected 15, missed 18 {'Small': 13, 'Medium': 5}; sensitivity 45.5% (27.8–63.0); echoes per aneurysm detected 17.4 (11.9–32.8); echoes avoided per aneurysm missed 80.1 (53.6–143.8).
+- S4 echo if ≥1 risk factor or exact in-hospital Z ≥1.5 (exploratory): echoes 1,084 (avoided 36.3%, 34.1–38.6); detected 28, missed 5 {'Small': 3, 'Medium': 2}; sensitivity 84.8% (71.9–96.0); echoes per aneurysm detected 38.7 (28.3–58.4); echoes avoided per aneurysm missed 123.6 (63.0–593.3).
+M3c. Timing of the first post-discharge echo (uncomplicated, first echo ≤30 d)
+- days after discharge 1–7 d: aneurysm 13/786 (1.65%), involvement 18/786 (2.29%); days after discharge 8–14 d: aneurysm 11/689 (1.60%), involvement 14/689 (2.03%); days after discharge 15–30 d: aneurysm 2/143 (1.40%), involvement 3/143 (2.10%); illness day ≤14: aneurysm 2/109 (1.83%), involvement 2/109 (1.83%); illness day 15–21: aneurysm 16/816 (1.96%), involvement 21/816 (2.57%); illness day 22–30: aneurysm 3/247 (1.21%), involvement 3/247 (1.21%); illness day >30: aneurysm 1/81 (1.23%), involvement 2/81 (2.47%).
+- Firth OR (adjusted for the risk-factor count): d_1–7 d 1.04 (0.47–2.27); d_15–30 d 0.98 (0.25–3.84); i_≤14 1.05 (0.28–4.00); i_22–30 0.67 (0.21–2.09); i_>30 0.87 (0.16–4.62).
+M3d. Complete blood count at the follow-up visit (CBC within ±1 day of the first ≤30-d echo: 1,526 of 1,618 uncomplicated children, 22 aneurysms; same day 91.5%; capillary samples 94.7%)
+- Flags: Platelets ≥450 ×10⁹/L in 611 (40.0%) — aneurysm 12/611 (1.96%) vs 10/915 (1.09%); Platelets ≥1,000 ×10⁹/L in 4 (0.3%) — aneurysm 0/4 (0.00%) vs 22/1522 (1.45%); WBC ≥15 ×10⁹/L in 57 (3.7%) — aneurysm 1/57 (1.75%) vs 21/1469 (1.43%); Hemoglobin <100 g/L in 147 (9.6%) — aneurysm 3/147 (2.04%) vs 19/1379 (1.38%).
+- AUC (bootstrap 95% CI) and gain over the risk-factor count (apparent ΔAUC, bootstrap CI; post hoc optimism-corrected): PLT 0.638 (0.511–0.760), ΔAUC +0.035 (-0.009–0.129), corrected +0.019; WBC 0.562 (0.433–0.687), ΔAUC -0.007 (-0.028–0.054), corrected -0.021; NEUT 0.523 (0.391–0.646), ΔAUC -0.010 (-0.027–0.067), corrected -0.027; LYM 0.589 (0.472–0.708), ΔAUC +0.004 (-0.018–0.058), corrected -0.010; Hb 0.387 (0.283–0.501), ΔAUC +0.011 (-0.015–0.064), corrected +0.003; NLR 0.457 (0.338–0.565), ΔAUC -0.010 (-0.044–0.075), corrected -0.024; dPLT 0.498 (0.325–0.676), ΔAUC +0.005 (-0.025–0.070), corrected -0.032; dWBC 0.310 (0.204–0.423), ΔAUC +0.050 (0.004–0.159), corrected +0.038; dHb 0.502 (0.389–0.620), ΔAUC -0.008 (-0.024–0.055), corrected -0.023.
+- Triage in the same children: echo only if a CBC flag is present — sensitivity 59.1% (13/22), echoes avoided 55.3%; echo only if ≥1 risk factor — sensitivity 81.8% (18/22), echoes avoided 38.9%.
+M4a. After an aneurysm first documented after discharge (descriptive; inpatient orders only; outpatient notes from 2021-01-03)
+- Aneurysm first documented after discharge (C1) (n = 45): re-imaged ≤90 d 37/45, ≤365 d 31/37; median days to the next echo 15.5; inpatient admission ≤365 d 5/37; inpatient antithrombotic order ≤365 d 6/37 (beyond aspirin 5/37); outpatient note ≤90 d 26/27, mentioning an antithrombotic 26/26, beyond aspirin 20/26, the word aneurysm 6/26.
+- … found at the first ≤30-d echo after an uncomplicated course (n = 26): re-imaged ≤90 d 22/26, ≤365 d 19/22; median days to the next echo 14.0; inpatient admission ≤365 d 2/22; inpatient antithrombotic order ≤365 d 3/22 (beyond aspirin 2/22); outpatient note ≤90 d 12/13, mentioning an antithrombotic 12/12, beyond aspirin 9/12, the word aneurysm 2/12.
+- Comparator: small in-hospital aneurysm (time 0 = discharge) (n = 280): re-imaged ≤90 d 206/276, ≤365 d 164/223; median days to the next echo 7.0; inpatient admission ≤365 d 23/223; inpatient antithrombotic order ≤365 d 24/223 (beyond aspirin 14/223); outpatient note ≤90 d 161/209, mentioning an antithrombotic 152/161, beyond aspirin 74/161, the word aneurysm 12/161.
+- Reference practice: children with a small in-hospital aneurysm with an antithrombotic beyond aspirin ordered in the index admission 199/280.
+- Regression below Z 2.5 after a post-discharge aneurysm (time 0 = detection): 90 d 60.27% (45.18–75.77; n = 40, 31 events); 365 d 86.34% (72.17–95.49; n = 40, 31 events).
+M4b. Readmission ≤30 d after the index discharge (index admissions 2018–2024 without 2021; descriptive)
+- Readmitted children 169/3,907 = 4.33% (95% CI 3.73–5.01) (179 readmissions); cohort C1 147/3,400 = 4.32% (95% CI 3.69–5.06); days to readmission median 7.0 (IQR 4.1–11.9).
+- Principal diagnosis: Kawasaki disease 81 (47.9%; IVIG 47, glucocorticoid 28, infliximab 6); Other 36 (21.3%; IVIG 7, glucocorticoid 12, infliximab 0); Respiratory infection 25 (14.8%; IVIG 2, glucocorticoid 2, infliximab 0); Other infection or fever 11 (6.5%; IVIG 1, glucocorticoid 1, infliximab 0); Gastrointestinal 10 (5.9%; IVIG 1, glucocorticoid 1, infliximab 0); Coronary artery lesion 6 (3.6%; IVIG 1, glucocorticoid 1, infliximab 0).
+- Treatments during the readmission (children): ivig 59, ster 45, ifx 6, aspirin 38, dipyridamole 29, clopidogrel 0, warfarin 0, LMWH 4; echocardiogram during the readmission 111.
+- C1 children with an echo during the readmission (n = 98): category higher than the index maximum 20, same 68, lower 10; new aneurysm after Z < 2.5 in hospital 10.
+
+Deviations from the module plan (all labelled in the tables): (1) the repeat-pair differences are heavy-tailed, so robust (MAD-based) repeatability and a noise model with the robust SD were added post hoc next to the pre-specified SD-based versions; (2) an optimism-corrected AUC gain (bootstrap, fitted on resamples and tested on the full set) was added post hoc to M3d because nine indices were tested with few events; (3) echo report dates carry no time of day, so set A pairs are 1–3 calendar days apart; (4) the readmission category "Other" is listed in full in TableM4b_readmission_other_principal_diagnoses.csv.

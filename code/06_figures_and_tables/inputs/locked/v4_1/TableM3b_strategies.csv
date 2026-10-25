@@ -1,0 +1,6 @@
+strategy,n,aneurysms,echoes,echoes_avoided_pct,echoes_avoided_pct_ci,detected,missed,sensitivity_pct,sensitivity_pct_ci,echoes_per_aneurysm_detected,echoes_per_aneurysm_detected_ci,echoes_avoided_per_aneurysm_missed,echoes_avoided_per_aneurysm_missed_ci,missed_by_size
+S0 echo all,1702,33,1702,0.0,0.0–0.0,33,0,100.0,100.0–100.0,51.58,38.7–74.0,,NA,{}
+S1 echo if ≥1 risk factor,1702,33,1070,37.13,34.8–39.4,28,5,84.85,71.9–96.0,38.21,27.9–57.8,126.4,64.6–608.4,"{'Small': 3, 'Medium': 2}"
+S2 echo if ≥2 risk factors,1702,33,296,82.61,80.7–84.4,15,18,45.45,27.3–63.3,19.73,13.4–37.6,78.11,53.1–138.9,"{'Small': 14, 'Medium': 4}"
+S3 echo if dilation only or IVIG resistance,1702,33,261,84.67,83.0–86.4,15,18,45.45,27.8–63.0,17.4,11.9–32.8,80.06,53.6–143.8,"{'Small': 13, 'Medium': 5}"
+S4 echo if ≥1 risk factor or exact in-hospital Z ≥1.5 (exploratory),1702,33,1084,36.31,34.1–38.6,28,5,84.85,71.9–96.0,38.71,28.3–58.4,123.6,63.0–593.3,"{'Small': 3, 'Medium': 2}"

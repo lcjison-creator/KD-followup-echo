@@ -1,0 +1,57 @@
+KD ECHO SURVEILLANCE v5 - TEMPORAL VALIDATION PLAN
+Locked before any validation outcome (numerator) was computed. Decision to run option A: Changjian Li, 14 October 2026.
+
+1. PURPOSE
+Temporally validate the locked v4 estimates of the yield of post-discharge echocardiography after an uncomplicated in-hospital course, in index admissions whose in-hospital echocardiograms all fall inside the period covered by the structured coronary measurement export. The locked v4/v4.1 results are not changed:
+  Results_locked_v4.txt   SHA-256 5940f6a3c0bb69cc3d870fd48b60beaf2ca593911657c7b019ed0f4bb34d5aa3
+  Results_locked_v4_1.txt SHA-256 5600d5765bb34348dcfeab220325a4a7abe1e8b28a979d1ee6ac18777d14ee55
+
+2. DATA
+- KD_ResearchKit_v1 (frozen 30 September 2026; integrity verified by kdkit.load).
+- Structured echocardiography export: 7,213 reports, 2,596 children, exam dates 2025-03-08 to 2026-09-23; file SHA-256 3c058add9dcb1ed49357bdd0fdab04e0da699482008936df88ee96b4eba71856. Frozen as the kit v1.1 addendum tables KD_echo_measure_2025_2026_v1 and KD_echo_reports_combined_v5 (hashes in the addendum manifest).
+- DATA_END = latest exam date in the export (2026-09-23).
+
+3. WHAT WAS SEEN BEFORE THIS LOCK
+- Report-level agreement between the structured numbers and the v4 report categories (all reports in the export window; no cohort-level outcome), the check that the exported Z values follow the laboratory equations of the kit, and approximate counts of eligible children from a preliminary rule (1,103 index admissions; 812 uncomplicated; 546 with a first echocardiogram within 30 days of discharge; 311 eligible for the 31-90-day window).
+- No proportion, numerator or event count in the validation cohort has been computed.
+
+4. PER-REPORT CORONARY CATEGORY (combined rule; implemented in KD_echo_reports_combined_v5)
+AHA 2017 categories from the maximal Z: 0 none (<2), 1 dilation only (2 to <2.5), 2 small aneurysm (2.5 to <5), 3 medium (5 to <10), 4 large/giant (>=10, or diameter >=8 mm).
+(a) Numbers: the maximum over the structured proximal values (LCA, LAD, proximal RCA) and any values written in the report text (kit evidence tiers 1-2, which include mid/distal segments); a diameter >=8 mm gives category 4.
+(b) Wording override: if (a) gives <2, the report has no text numbers, its wording-model category is >=2 and its conclusion names a non-proximal segment (regex 中段|远段|中远|远端|分叉|回旋支|LCX|后降支|左室后支|后侧支 together with 扩张|瘤), the wording-model category is used.
+(c) No numbers: transcribed numbers (tier 3), else the wording model (tier 4), as in the kit; otherwise unclassifiable.
+Same-day reports: the maximum category of that day. Duplicate rows of the same report key are dropped.
+
+5. VALIDATION COHORT (V)
+- Index admission as defined in the kit (first admission with Kawasaki disease among the discharge diagnoses).
+- Inclusion: the first in-hospital echocardiogram of the index admission is on or after 2025-03-08, and at least one in-hospital report is classifiable.
+- In-hospital maximum = maximum combined category over in-hospital reports (phase in_index). Uncomplicated = in-hospital maximum 0.
+- Complete follow-up: windows ending within 30, 90 or 365 days of discharge require discharge on or before DATA_END minus 30, 90 or 365 days respectively.
+- Windows (days after discharge): 1-30 (Q1), 31-90 (W2), 91-365 (W3), as in v4.
+
+6. ENDPOINTS
+Primary P1: among uncomplicated children in V with complete 30-day follow-up and at least one classifiable echocardiogram 1-30 days after discharge, the proportion with an aneurysm (category >=2) at the first such echocardiogram (first exam date; same-day maximum).
+Secondary:
+ S1 any involvement (>=1) and S2 medium or larger (>=3) at the same echocardiogram.
+ S3 aneurysm on any echocardiogram within 30 days.
+ S4 W2: children whose 1-30-day echocardiograms were all category 0, with complete 90-day follow-up and at least one classifiable echocardiogram 31-90 days after discharge; aneurysm and any involvement in that window.
+ S5 W3 (91-365 days) after normal findings in all earlier windows, complete 365-day follow-up; descriptive.
+ S6 Persistence of P1 events: aneurysm again on the next classifiable echocardiogram within 90 days (not re-imaged reported separately).
+ S7 Risk-factor strategy (v4 strategy S1, echocardiogram only if >=1 of: age <12 months, IVIG resistance from orders, in-hospital dilation only, discharge CRP >20 mg/L or WBC >12 x10^9/L, using the kit variables): children discharged with in-hospital maximum <=1 and a first echocardiogram within 30 days (complete follow-up); echocardiograms avoided and aneurysms detected/missed; descriptive.
+ S8 Extended follow-up of the locked v4 cohort C1: W3 and W4 (>365 days) after normal findings in all earlier windows, recomputed with echocardiograms through DATA_END (combined category inside the structured period, kit categories before it); descriptive comparison with the locked v4 values.
+
+7. ANALYSIS
+- Proportions with Wilson 95% CIs.
+- P1 against the locked v4 estimate (26/1,618):
+  (i) difference (V minus v4) with the Newcombe hybrid-score 95% CI;
+  (ii) predictive compatibility: beta-binomial predictive distribution for V's count given the v4 data, Beta(26.5, 1592.5); two-sided P = min(1, 2 x min[P(X<=x), P(X>=x)]). Pre-specified reading: P >= 0.05 = temporally replicated (no detectable incompatibility; not proof of equality); P < 0.05 = not replicated.
+  (iii) pooled 2018-2026 estimate (v4 primary plus V) with Wilson 95% CI.
+- The same comparisons for S1 (v4 35/1,618), S2 (11/1,618) and S4 aneurysm (v4 1/1,028).
+- Sensitivity analyses for P1: (a) categories without the wording override; (b) the v4 report categories (wording model for this period).
+- No imputation; unclassifiable reports are ignored, as in v4.
+
+8. OUTPUTS
+Results_locked_v5.txt (with this plan's SHA-256), tables, one figure comparing v4 and v5 estimates, key_numbers_v5.json, in output_kd_echo_surveillance_v5/.
+
+9. DEVIATIONS
+Any change after this lock is listed in Results_locked_v5.txt with its reason.

@@ -1,0 +1,16 @@
+﻿Term,Definition
+Index admission,"First inpatient admission with a discharge diagnosis of Kawasaki disease. Derivation: index admissions 2018–2024 except 2021 (in-hospital echocardiography reports of 2021 were not in the export). Validation: index admissions whose first in-hospital echocardiogram was on or after March 8, 2025, the start of the structured measurement export."
+Coronary category of a report,"AHA 2017 category of the largest Z score of the left main, left anterior descending and right coronary arteries (and the circumflex when written): no involvement, Z < 2; dilation only, 2 to < 2.5; small aneurysm, 2.5 to < 5; medium aneurysm, 5 to < 10; large or giant aneurysm, Z ≥ 10 or internal diameter ≥ 8 mm. Reports on the same day: the largest category (validation)."
+Findings,"Any involvement, Z ≥ 2; aneurysm, Z ≥ 2.5; medium or larger aneurysm, Z ≥ 5."
+Uncomplicated in-hospital course,Z < 2 on every classifiable echocardiography report of the index admission.
+Windows after discharge,"Calendar days after the discharge date: 1–30, 31–90, 91–365 and more than 365 days."
+First post-discharge echocardiogram,The first classifiable report 1–30 days after discharge; its category is the outcome.
+Later windows,Children with Z < 2 on every report in all earlier windows and at least one report in the window; the outcome is the largest category in the window.
+Complete follow-up (validation),"Discharge at least 30, 90 or 365 days before the end of data (September 23, 2026) for the 1–30-, 31–90- and 91–365-day windows."
+Numeric era (derivation),"Echocardiograms up to February 28, 2025. From March 2025 most measurements were held in a structured table that was exported separately and used only for the validation cohort."
+IVIG course,IVIG orders; an order starting 36 hours or more after the start of the previous course began a new course.
+IVIG resistance,"A second IVIG course, a systemic glucocorticoid started more than 24 hours after the first IVIG, or infliximab during the index admission."
+Laboratory values,"Admission value, first result of the index admission; discharge value, last result before discharge. CRP: standard CRP, or high-sensitivity CRP when standard CRP was not measured."
+Risk factors for selection,Age < 12 months; IVIG resistance; in-hospital dilation only (Z 2 to < 2.5); discharge CRP > 20 mg/L or white blood cell count > 12 × 10⁹/L (counted once).
+Readmission within 30 days,Any inpatient admission within 30 days after the index discharge.
+Illness day,"Day 1 is the first day of fever, from the duration of fever recorded in the admission note."
